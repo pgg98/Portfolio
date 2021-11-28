@@ -1,0 +1,101 @@
+-- Ejercicio 1
+
+SET SERVEROUTPUT ON;
+
+declare 
+
+   aux_contador number:=0;
+   
+begin
+
+    select count(*) 
+    into   aux_contador 
+    from   recurso;
+    
+    if aux_contador >5 then 
+        dbms_output.put_line('hay mas de 5 recursos');
+    else
+        dbms_output.put_line('hay 5 o menos recursos');
+    end if;
+    
+end;    
+    
+    
+    
+-- Ejercicio 2
+
+SET SERVEROUTPUT ON;
+
+declare 
+
+   aux_gratis number:=0;
+   aux_pago   number:=0;
+   
+begin
+
+    select count(*) 
+    into   aux_gratis 
+    from   recurso_gratuito;
+   
+    select count(*) 
+    into   aux_pago
+    from   recurso_pago;
+      
+    if aux_gratis >=  aux_pago  then 
+         raise_application_error (-20001,'ERROR--> Hay muchos recursos gratuitos');
+    end if;
+      
+end;       
+   
+-- Ejercicio 3
+
+
+declare 
+   max_codigo number;
+begin
+
+ begin
+  insert into recurso  (codigo, descripcion, nombre_formato) values(1,'recurso x','MP3');
+  exception 
+      when dup_val_on_index then 
+        select max(codigo)+1  into max_codigo from recurso;
+       insert into recurso  (codigo, descripcion, nombre_formato) values(max_codigo,'recurso x','MP3');
+  end;
+
+end;   
+
+-- Ejercicio 4    
+
+SET SERVEROUTPUT ON;
+
+DECLARE 
+   auxmesactual meses.mes%type:= 'January';
+   auxmes meses.mes%type;
+   auxmesnuevo meses.mes%type:='Enero';
+   auxnohaydoce exception;
+   auxcuantosmeses NUMBER(3);
+
+BEGIN
+   -- Comprobamos que el mes exista. Si no existe, salta la excepción
+   
+   select mes into auxmes from meses where mes = auxmesactual;
+   
+   -- Como hemos pasado de la sentencia anterior sin error, modificamos
+   
+   update meses set mes = auxmesnuevo where mes = auxmesactual;
+   
+   -- Contamos ahora el número de meses de la tabla
+   
+   select count(*) into auxcuantosmeses from meses;
+   
+   if auxcuantosmeses < 12 then raise auxnohaydoce; end if;
+   
+   EXCEPTION WHEN
+       no_data_found THEN
+             raise_application_error(-20001,'El mes '|| auxmesactual || ' no existe.');
+       WHEN auxnohaydoce THEN
+           dbms_output.put_line('La tabla de meses está incompleta. Hay '|| auxcuantosmeses || ' meses.');    
+END;
+    
+    
+    

@@ -1,0 +1,83 @@
+ 
+-- Ejercicio 1
+
+
+
+select  j.jugador_nombre, count(*) as numero,
+         max(nvl(p.partida_puntuacion,0) )  as maximo, 
+         min(nvl(p.partida_puntuacion,0) ) as minimo
+ from partidas p, jugadores j 
+ where j.jugador_id = p.partida_jugador_id
+ group by j.jugador_nombre
+ having count(*) > = 2;
+
+
+with  P_PARTIDAS as ( select p.partida_jugador_id,
+                   count(*)   as numero,
+                   max(nvl(p.partida_puntuacion,0) ) as maximo,
+                   min(nvl(p.partida_puntuacion,0)) as minimo
+         from partidas p
+         group by p.partida_jugador_id)
+select j.jugador_nombre, p.numero, p.maximo, p.minimo  
+from  jugadores j ,   P_PARTIDAS   p
+where j.jugador_id = p.partida_jugador_id
+          and  numero >=2;
+ 
+
+
+Si las ejecutamos sin NVL lo que ocurre es que NO se estan teniendo en cuenta para el calculo del MIN las tuplas con el campo PARTIDA_PUNTUACION
+a nulo y por tanto, para la Jugadora2 no se tiene en cuenta la partida jugada el 28/01/19.
+
+
+
+
+
+
+-- Ejercicio 2
+
+Create table Registro_entradas (Jugador_SK int GENERATED ALWAYS AS IDENTITY CONSTRAINT PK_regentrada PRIMARY KEY, Jugador_ID varchar2(50) NULL, Registro_fecha_hora DATE not null, Registro_valido int DEFAULT 1 NOT NULL CONSTRAINT CHK_reg_valido check (Registro_valido in (0,1)));
+
+-- Ejercicio 3
+
+INSERT INTO REGISTRO_ENTRADAS (JUGADOR_ID,REGISTRO_FECHA_HORA,REGISTRO_VALIDO) VALUES ('jugador2@dbdm.es',TO_DATE('01012017','DDMMYYYY'),0);
+INSERT INTO REGISTRO_ENTRADAS (JUGADOR_ID,REGISTRO_FECHA_HORA,REGISTRO_VALIDO) VALUES ('jugador22',TO_DATE('05012017','DDMMYYYY'),1);
+
+SELECT * FROM REGISTRO_ENTRADAS;
+
+-- Ejercicio 4
+
+-- Alter table sirve para modificar la estructura de la tabla, y update para modificar filas de la tabla
+
+ -- Ejercicio 5
+ 
+ Alter table partidas add (Partida_puntuacion_ej4 int null);
+
+-- Ejercicio 6
+
+Delete from Registro_entradas;
+Alter table Registro_entradas add (CONSTRAINT FK_reg_ent_jugadores FOREIGN KEY (Jugador_ID) REFERENCES Jugadores);
+Alter table Registro_entradas modify (Registro_fecha_hora DEFAULT SYSDATE);
+
+-- Ejercicio 7
+
+INSERT INTO REGISTRO_ENTRADAS (JUGADOR_ID,REGISTRO_FECHA_HORA,REGISTRO_VALIDO) VALUES ('Jugador1@dbdm.es',SYSDATE,1);
+
+select * from registro_entradas;
+
+-- Sale la fila insertada
+
+rollback;
+
+-- Ahora no sale
+
+-- Ejercicio 8
+
+-- Antes del commit no salía, y después sí
+
+ 
+ 
+
+
+
+
+
