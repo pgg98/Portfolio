@@ -1,0 +1,1 @@
+CREATE TABLE  yy (col1 INTEGER, col2 CHAR(2), col3 VARCHAR(10), PRIMARY KEY (col1,col2))

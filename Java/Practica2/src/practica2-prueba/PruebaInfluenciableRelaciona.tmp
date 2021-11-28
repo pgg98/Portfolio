@@ -1,0 +1,13 @@
+COMPROBAMOS EMPAREJA: 
+Pasando un influenciable sin deidad: false
+Pasando un influenciable con deidad distinta: false
+Pasando un influenciable con la misma deidad: true
+8.0
+8.0
+Pasando un influenciable con pareja: false
+Nueva pareja: true
+Comprobamos que es su pareja: Danny
+Comprobamos que es su pareja: Caballero
+Probamos con null: false
+
+COMPROBAMOS RELACIONA CON DEIDAD DIABLO: 

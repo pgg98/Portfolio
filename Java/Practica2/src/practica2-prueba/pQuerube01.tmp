@@ -1,0 +1,55 @@
+---- antes de influir sobre una persona ----
+Nombre: accesorio1 <ACCESORIO>
+	 Influencia: 8
+	 Valor emocional: 0.56
+	 Valor intrinseco: 7.0
+	 Poseedor: jose
+Nombre: accesorio2 <ACCESORIO>
+	 Influencia: 10
+	 Valor emocional: 0.7
+	 Valor intrinseco: 7.0
+	 Poseedor: jose
+Nombre: trapo viejo <RECUERDO>
+	 Influencia: 8
+	 Valor emocional: 0.64
+	 Valor intrinseco: 0.64
+	 Poseedor: jose
+		En tienda: sin tienda
+		Ondas: 1
+Nombre: doblones <DINERO>
+	 Influencia: -10
+	 Valor emocional: -1.0
+	 Valor intrinseco: 10.0
+	 Poseedor: jose
+--total emocional de las pertencias--: 0.8999999999999999
+querube sobre persona: 9.46
+---- despues de influir ----
+Nombre: accesorio1 <ACCESORIO>
+	 Influencia: 10
+	 Valor emocional: 0.7
+	 Valor intrinseco: 7.0
+	 Poseedor: jose
+Nombre: accesorio2 <ACCESORIO>
+	 Influencia: 12
+	 Valor emocional: 0.84
+	 Valor intrinseco: 7.0
+	 Poseedor: jose
+Nombre: trapo viejo <RECUERDO>
+	 Influencia: 8
+	 Valor emocional: 1.92
+	 Valor intrinseco: 0.64
+	 Poseedor: jose
+		En tienda: sin tienda
+		Ondas: 3
+Nombre: doblones <DINERO>
+	 Influencia: 10
+	 Valor emocional: 1.0
+	 Valor intrinseco: 10.0
+	 Poseedor: jose
+--total emocional de las pertencias--: 4.46
+5.0
+deidad: true
+adeptos de josesion: undescript
+mi aura antes de la siguiente influencia: 4.46
+influyendo sobre deidad: 5.446
+el aura despues de influir: 4.014

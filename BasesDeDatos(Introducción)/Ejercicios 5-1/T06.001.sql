@@ -1,0 +1,1 @@
+CREATE TABLE xx (col1 INTEGER, col2 CHAR(3), PRIMARY KEY (col1))

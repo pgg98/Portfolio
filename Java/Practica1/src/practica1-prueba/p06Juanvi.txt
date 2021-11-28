@@ -1,0 +1,46 @@
+***ESTA PRUEBA COMPRUEBA LOS CONSTRUCTORES DE OBJETO, PERSONA Y TIENDA
+
+***PRUEBA CONSTRUCTOR OBJETO***
+Creamos un objeto siguiendo las pautas del constructor
+Obtenemos su descripci�n para comprobar que este bien
+[DINERO, 10.0, Billete de 5$, 1]
+
+Creamos un objeto pas�ndole un tipo Null
+Obtenemos su descripci�n para comprobar que este bien
+[TARJETA, 3.2, Hola de papel, 10]
+
+Creamos un objeto pas�ndole cadena vac�a
+Obtenemos su descripci�n para comprobar que este bien
+[ALIMENTO, 5.5, intrascendente, 2]
+
+Creamos un objeto pas�ndole cadena null y tipo null
+Obtenemos su descripci�n para comprobar que este bien
+[TARJETA, 3.2, intrascendente, 3]
+
+***PRUEBA CONSTRUCTOR PERSONA***
+Creamos una persona siguiendo las pautas
+Juan
+21.0
+V
+
+Creamos una persona con un double menor que 0
+Mario
+76.0
+V
+
+Creamos una persona con cadena vac�a
+MANI
+58.0
+M
+
+Creamos una persona con edad 0 y cadena null
+SAM
+16.0
+M
+
+***PRUEBA CONSTRUCTOR TIENDA***
+Creamos una tienda siguiendo las pautas del constructor
+4,6,9.0
+
+Creamos una tienda con i1 < 0 , i2 < 0 y ganancias < 0 
+3,4,0.0

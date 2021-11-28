@@ -1,0 +1,3 @@
+SELECT COUNT(*)
+FROM camara
+WHERE sensor LIKE '%CMOS%'

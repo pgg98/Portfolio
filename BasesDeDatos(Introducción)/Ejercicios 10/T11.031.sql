@@ -1,0 +1,4 @@
+SELECT *
+FROM pedido
+NATURAL JOIN linped
+ORDER BY fecha

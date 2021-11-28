@@ -1,0 +1,86 @@
+COMPROBAMOS EMPAREJA: 
+Pasando un influenciable sin deidad: false
+Pasando un influenciable con deidad distinta: false
+Pasando un influenciable con la misma deidad: true
+8.0
+8.0
+Pasando un influenciable con pareja: false
+Nueva pareja: true
+Comprobamos que es su pareja: Danny
+Comprobamos que es su pareja: Caballero
+Probamos con null: false
+
+COMPROBAMOS RELACIONA CON DEIDAD DIABLO: 
+Se le pasa por paremetro un null: 0.0
+Se le pasa un influenciable-Diablo: 1.0
+Se le pasa un influenciable-Querube: 0.0
+Se le pasa un influenciable-sin deidad: 2.5
+Se le pasa una persona normal: 2.5
+Se le pasa por paremetro su pareja: 3.5
+
+Vamos a ver el nuevo miembro de la familia de Danny: Danny Maria
+Valor animico de DANNY: 17.5 Valor animico de MARIA: 11.5
+Edad de Ennio: 24.0 Edad de DANNY: 24.0
+Genes de DANNY: V Gene de MARIA: M
+Edad: 64.5
+Genes: M
+Deidad: LUCIFER
+Deidad de Danny: LUCIFER
+Deidad de Maria: Ser superior
+Comprobamos que tmb esta en la familia de Maria: Danny Maria
+
+Comprobamos relaciona con un influenciable sin deidad y pasando por parametro un influenciable sin deidad: 0.5
+Comprobamos relaciona con un influenciable sin deidad y pasando por parametro un influenciable con deidad: 0.5
+2
+Comprobamos relaciona con un influenciable sin deidad y pasando por parametro una persona: 0.5
+3
+Comprobamos relaciona con un influenciable sin deidad y pasando por parametro una persona: 0.5
+3
+
+COMPROBAMOS RELACIONA CON DEIDAD QUERUBE: 
+
+Se le pasa por paremetro un null: 0.0
+Se le pasa un influenciable-Diablo: 1.0
+Comprobamos que deja de tener diedad: null
+Se le pasa un influenciable-Querube: 1.0
+
+Estado del influenciable ANTES de hacer una relacion con un Querube: 3.0
+Se le pasa un influenciable-sin deidad: -1.0
+Estado del influenciable DESPUES de hacer una relacion con un Querube: 4.0
+
+Se le pasa una persona normal: -1.0
+
+Se le pasa por paremetro su pareja siendo ambos Hombes: 2.0
+Se le pasa por paremetro la pareja de Ennio: 4.0
+
+Vamos a ver el nuevo miembro de la familia de ENNIO: Danny-Ennio
+Valor animico de Ennio: 12.0 Valor animico de DANNY: 12.0
+Edad de Ennio: 25.0 Edad de DANNY: 24.0
+Genes de ENNIO: V Gene de DANNY: M
+Edad: 3.0
+Genes: V
+Deidad: Angelito
+Deidad de Ennio: Angelito
+Deidad de DANNY: Ser superior
+Comprobamos que tmb esta en la familia de DANNY: Danny-Ennio
+
+COMPROBAMOS RELACIONA CON UN QUERUBE QUE TIENE UN FAMILIAR Y PASANDOLE UN QUERUBE: 1.0
+COMPROBAMOS RELACIONA CON UN QUERUBE QUE TIENE UN FAMILIAR Y PASANDOLE UN FAMILIAR: 1.0
+Relaciones (tiene que dar dos pues tiene un familiar y una nueva relacion): 2
+
+POR ULTIMO COMPROBAMOS QUE SI UN INFLUENCIABLE SE HA RELACIONADO CON OTRO Y DEPSUES SE CONVIIERTE EN SU PAREJA SE ELIMINA DE RELACIONES:
+Se relacionan dos Diablos: 1.0
+Se relacionan dos Diablos: 4.0
+Estado del querube con familia: 14.0
+Se relacionan un diablo con un querube con familia: 0.0
+Estado del querube con familia: 13.0
+Crobamos sus RELACIONES: 1
+Crobamos sus RELACIONES: 5
+Se emparejan ambos: true
+Crobamos sus RELACIONES: 0
+Crobamos sus RELACIONES: 4
+13.0
+Comprobamos un querube con familia se relaciona con otro querube: 2.0
+14.0
+
+COMPROBAMOS PASARLE POR PARAMETRO A SI MISMO: false 0.0

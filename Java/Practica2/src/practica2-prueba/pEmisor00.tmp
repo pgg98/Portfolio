@@ -1,0 +1,29 @@
+Nombre: amuleto12 <ACCESORIO>
+	 Influencia: 3
+	 Valor emocional: 0.21
+	 Valor intrinseco: 0.21
+	 Poseedor: sin poseedor
+		En tienda: sin tienda
+		Ondas: 1
+Nombre: intrascendente <TARJETA>
+	 Influencia: -1
+	 Valor emocional: -0.096
+	 Valor intrinseco: -0.032
+	 Poseedor: sin poseedor
+		En tienda: sin tienda
+		Ondas: 3
+Nombre: intrascendente <ALIMENTO>
+	 Influencia: 2
+	 Valor emocional: -0.22
+	 Valor intrinseco: 0.11
+	 Poseedor: sin poseedor
+		En tienda: sin tienda
+		Ondas: -2
+Ondas, envilecido: -1
+Ondas, continua envilecido: -1
+Ondas, purificado: 1
+Ondas, continua purificado: 1
+Ondas (+2): 3
+Ondas (-3): 0
+Ondas (-4): -3
+Ondas (+8): 3
