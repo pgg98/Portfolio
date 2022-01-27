@@ -1,3 +1,0 @@
-SELECT *
-FROM usuario
-WHERE YEAR(NOW())-YEAR(nacido)<25

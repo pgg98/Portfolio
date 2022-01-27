@@ -1,3 +1,0 @@
-SELECT marca, COUNT(*)
-FROM articulo
-group BY marca

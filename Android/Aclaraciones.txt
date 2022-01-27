@@ -1,5 +1,0 @@
-Incluye:
--Calculadora decimal: operativa.
--Calculadora binaria: operativa.
--Calculadora variada(binario natural, signo y magnitud, complemento a 2): no operativa, pero intentada ":)".
--Calculadora binariaPuertasLógicas(binario natural con las tres operaciones lógicas implementadas para este): operativa.

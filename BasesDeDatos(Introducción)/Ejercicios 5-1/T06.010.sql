@@ -1,9 +1,0 @@
-INSERT into yy VALUES (1,'AA','primera')
-INSERT into yy VALUES (2,'AA','segunda')
-INSERT into yy VALUES (2,'BB','tercera')
-insert into yy values (1,'AA','cuarta');
-insert into yy values (NULL,NULL,'quinta');
-insert into yy values (NULL,'CC','sexta');
-insert into yy values (3,NULL,'séptima');
-insert into yy values (0,'','octava');
-insert into yy values (3,'AA',NULL);

@@ -1,4 +1,0 @@
-ID=1
-Estado=on
-Floor=5
-Upper=200

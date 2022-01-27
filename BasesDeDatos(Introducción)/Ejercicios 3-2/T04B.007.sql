@@ -1,1 +1,0 @@
-SELECT DATE_FORMAT('2011-02-21','%d/%m/%Y') Fecha

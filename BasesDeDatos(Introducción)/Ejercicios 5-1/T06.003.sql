@@ -1,1 +1,0 @@
-INSERT INTO xx VALUES (1,'AA')
