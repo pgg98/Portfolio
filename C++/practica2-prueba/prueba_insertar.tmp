@@ -1,0 +1,81 @@
+***Vamos a insertar***
+***Primera lista***
+Albacete (1)
+Alicante (1)
+Gijon (1)
+Valladolid (1)
+Alicante (2)
+Teruel (3)
+Barcelona (4)
+Burgos (4)
+Euskadi (4)
+Gijon (4)
+Pamplona (4)
+Cordoba (18)
+Teruel (18)
+Albacete (85)
+Alicante (85)
+Barcelona (85)
+
+Rango: 85
+***Segunda Lista***
+Albacete (1)
+Alicante (1)
+Burgos (1)
+Gijon (1)
+Valladolid (1)
+Alicante (2)
+Teruel (3)
+Alicante (4)
+Barcelona (4)
+Pamplona (4)
+Cordoba (18)
+Teruel (18)
+Albacete (85)
+Alicante (85)
+Rango: 85
+
+***Vamos a eliminar individualmente algun nodo***
+***Primera lista***
+Alicante (1)
+Gijon (1)
+Valladolid (1)
+Alicante (2)
+Barcelona (4)
+Burgos (4)
+Euskadi (4)
+Gijon (4)
+Pamplona (4)
+Cordoba (18)
+Teruel (18)
+Albacete (85)
+Alicante (85)
+Barcelona (85)
+
+Rango: 85
+
+***Vamos a eliminar los que sean mayores que 18***
+***Primera lista***
+Alicante (1)
+Gijon (1)
+Valladolid (1)
+Alicante (2)
+Barcelona (4)
+Burgos (4)
+Euskadi (4)
+Gijon (4)
+Pamplona (4)
+Cordoba (18)
+Teruel (18)
+
+Rango: 18
+
+***Vamos a probar getLocalidad()***
+-1-Valladolid-(-1,-1)
+1 2 3 4 1 
+-1-Barcelona-(-1,-1)
+1 2 3 4 1 
+-1-Alicante-(-1,-1)
+1 2 3 4 1 
+-1-Teruel-(-1,-1)
+1 2 3 4 1 

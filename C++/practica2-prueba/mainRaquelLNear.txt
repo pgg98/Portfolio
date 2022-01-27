@@ -1,0 +1,110 @@
+Inserto principio Barcelona porque esta vacio
+Inserto final Madrid
+Inserto Alicante enmedio de Barcelona y Madrid por la distancia
+Inserto Cuenca antes de Madrid por el nombre
+Inserto Cocentaina al principio por distancia
+Inserto Alcoy al principio por el nombre
+Intento volver a insertar una localidad con mismo nombre y distancia
+Inserto Gandia al final porque distancia mayor
+Inserto al final por distancia igual y nombre
+Intento volver a insertar una localidad con mismo nombre y distancia
+Inserto Cuenca al final scon distinta distancia
+
+EL RESULTADO TIENE QUE SER:
+Alcoy->Cocentaina->Barcelona->Alicante->Cuenca->Madrid->Gandia->Malaga->Cuenca
+
+Alcoy (7)
+Cocentaina (7)
+Barcelona (10)
+Alicante (11)
+Cuenca (12)
+Madrid (12)
+Gandia (15)
+Malaga (15)
+Cuenca (20)
+
+AHORA VAMOS A PROBAR A ELIMINAR LOCALIDADES POR NOMBRE
+
+La distancia de Alcoy era: 7
+La distancia de Cuenca era: 12
+La distancia de Cuenca era: 20
+La distancia de Madrid era: 12
+La distancia de Cocentaina era: 7
+
+VUELVO A MOSTRAR LA LISTA
+Barcelona (10)
+Alicante (11)
+Gandia (15)
+Malaga (15)
+
+AHORA VAMOS A PROBAR A ELIMINAR LOCALIDADES POR DISTANCIA
+
+Borro 10
+
+VUELVO A MOSTRAR LA LISTA:
+Barcelona (10)
+
+Borro 7
+
+VUELVO A MOSTRAR LA LISTA:
+
+Ahora la lista deberia estar completamente vacia y voy a insertar tres ciudades
+Cocentaina (1)
+Alcoy (2)
+Gandia (8)
+
+POR ULTIMO VOY A CONSULTAR LAS LOCALIDADES DE LA LISTA
+
+Posición 1:Alcoy
+Posición 0:Cocentaina
+Posición 2:Gandia
+Posición -1:
+Posición 3:
+CREO DOS LISTAS Y VEO SI SE COPIAN BIEN
+
+A:
+Cocentaina (1)
+Alcoy (2)
+Alcoy (7)
+Cocentaina (7)
+Gandia (8)
+Barcelona (10)
+Alicante (11)
+Cuenca (12)
+Madrid (12)
+Malaga (15)
+Cuenca (20)
+
+B:
+Alcoy (7)
+Barcelona (10)
+Alicante (11)
+Madrid (12)
+Cuenca (20)
+
+Copio b en a
+A:
+Alcoy (7)
+Barcelona (10)
+Alicante (11)
+Madrid (12)
+Cuenca (20)
+
+B:
+Alcoy (7)
+Barcelona (10)
+Alicante (11)
+Madrid (12)
+Cuenca (20)
+
+Elimino algo de b para comprobar que son listas distintas y no estan enlazadas solo con pr y ul
+A:
+Alcoy (7)
+Barcelona (10)
+Alicante (11)
+Madrid (12)
+Cuenca (20)
+
+B:
+Alcoy (7)
+

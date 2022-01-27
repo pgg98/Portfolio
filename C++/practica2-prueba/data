@@ -1,0 +1,63 @@
+MMMMMMMMMMMMMM
+MMMMMMTTTMMMMM
+MMMTTTTTTTTMMM
+MMTTTTTTTTTMTM
+MTTTTTTTTTTTTM
+MTTMMTTTTTTTTM
+MMMMMMMMMMMMMM
+<LOCALIDAD>
+Alcoy
+3 7
+<INFO>
+hotel 2
+restaurante 1
+<LOCALIDAD>
+Campello
+3 5
+<INFO>
+museo 1
+monumento 3
+* la playa de la caleta
+<LOCALIDAD>
+Oliva
+1 8
+<INFO>
+museo 3
+hotel 3
+restaurante 4
+<LOCALIDAD>
+Alicante
+2 3
+<INFO>
+** la fontana di trevi
+hotel 10
+restaurante 10
+<LOCALIDAD>
+Muro
+5 10
+<INFO>
+* bar cabeza
+hotel 1
+restaurante 5
+monumento 1
+<LOCALIDAD>
+Valencia
+5 8
+<INFO>
+museo 1
+hotel 2
+restaurante 4
+<LOCALIDAD>
+Granada
+6 7
+<INFO>
+hotel 10
+restaurante 10
+<LOCALIDAD>
+Cocentaina
+5 1
+<INFO>
+** fira de cocentaina
+hotel 1
+restaurante 5
+monumento 1

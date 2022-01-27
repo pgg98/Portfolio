@@ -1,0 +1,99 @@
+Creo una coleccion
+Esta es mi coleccion:
+MMMMMMMMMMMMMM
+MMMMMMTTLMMMMM
+MMMLTTTTTTTMMM
+MMTTTLTLTTTMTM
+MTTTTTTTTTTTTM
+MLTMMTTTLTLTTM
+MMMMMMMMMMMMMM
+49-Alcoy-(3,7)
+0 0 2 1 0 
+47-Campello-(3,5)
+1 3 0 0 0 * la playa de la caleta
+22-Oliva-(1,8)
+3 0 3 4 0 
+31-Alicante-(2,3)
+0 0 10 10 0 ** la fontana di trevi
+80-Muro-(5,10)
+0 1 1 5 0 * bar cabeza
+78-Valencia-(5,8)
+1 0 2 4 0 
+71-Cocentaina-(5,1)
+0 1 1 5 0 ** fira de cocentaina
+He creado una provincia
+
+CALCULO CERCANAS
+
+Copio esta provincia en b y las muestro:
+a:
+Alcoy
+Campello (2)
+Oliva (3)
+Valencia (3)
+Alicante (5)
+Muro (5)
+Cocentaina (8)
+
+b:
+Alcoy
+Campello (2)
+Oliva (3)
+Valencia (3)
+Alicante (5)
+Muro (5)
+Cocentaina (8)
+
+Vuelvo a calcular ceccanas con una distancia menor y vuelvo a mostrar:
+a:
+Alcoy
+Campello (2)
+Oliva (3)
+Valencia (3)
+Alicante (5)
+Muro (5)
+
+b:
+Alcoy
+Campello (2)
+Oliva (3)
+Valencia (3)
+Alicante (5)
+Muro (5)
+Cocentaina (8)
+
+
+A partir de ahora vamos a trabajar con la provincia a
+
+VAMOS A PROBAR A BORRAR VARIAS LOCALIDADES
+
+borro Alicante: 5
+borro Cocentaina: -1
+
+Vuelvo a mostrar:
+Alcoy
+Campello (2)
+Oliva (3)
+Valencia (3)
+Muro (5)
+
+MUESTRO GETCERCANAS
+
+Campello (2)
+Oliva (3)
+Valencia (3)
+Muro (5)
+
+BUSCAMOS LA PRIMERA COSTERA
+
+La localidad costera mas cercana es: Oliva
+
+BUSCO TODAS LAS COSTERAS
+
+Oliva (3)
+Valencia (3)
+Muro (5)
+
+POR ULTIMO MIRO SI HAY AEROPUERTO
+
+sin aeropuerto

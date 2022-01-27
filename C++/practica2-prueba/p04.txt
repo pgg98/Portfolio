@@ -1,0 +1,12 @@
+la lista esta vacia? -> 1 y su rango es -1
+insertada Te Puru -> rango de la lista 22
+insertada Parua Bay -> rango de la lista 22
+insertada Putaruru -> rango de la lista 31
+insertada Saint Andrews -> rango de la lista 31
+insertada Motatau -> rango de la lista 31
+la lista esta vacia? -> 0 => Contenido de la lista:
+Motatau (5)
+Parua Bay (12)
+Te Puru (22)
+Saint Andrews (25)
+Putaruru (31)

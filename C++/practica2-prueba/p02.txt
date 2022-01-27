@@ -1,0 +1,10 @@
+Provincia:
+Te Puru
+Parua Bay (9)
+Putaruru (10)
+Kapui (11)
+Saint Andrews (12)
+Costeras:
+Parua Bay (9)
+Putaruru (10)
+Saint Andrews (12)

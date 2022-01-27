@@ -1,0 +1,12 @@
+Provincia:
+Te Puru
+Parua Bay (9)
+Putaruru (10)
+Saint Andrews (12)
+Motatau (21)
+Se ha borrado la localidad Parua Bay que estaba a una distancia de 9
+Provincia:
+Te Puru
+Putaruru (10)
+Saint Andrews (12)
+Motatau (21)
