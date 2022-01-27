@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "fc006ff27e50163bdec3a7588226171b",
+      "css": "play-circled",
+      "code": 59392,
+      "src": "elusive"
+    },
+    {
+      "uid": "8710d1e404dcb3a55b3ab97f797355b5",
+      "css": "pause-circled",
+      "code": 59393,
+      "src": "elusive"
+    },
+    {
+      "uid": "b387bb08e237859ba573fb32e2117310",
+      "css": "power",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
+      "uid": "xq9z5jujkqhrf97s70hjek6otohmhr1y",
+      "css": "down",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "mj2pxhfj0eumtbzirpdokhtzk00480uo",
+      "css": "up",
+      "code": 59396,
+      "src": "typicons"
+    },
+    {
+      "uid": "jh3jpcb1t1bcm80gidkadilh080aq79h",
+      "css": "menu",
+      "code": 59397,
+      "src": "typicons"
+    },
+    {
+      "uid": "078fec38562c3f83a1201a908040c141",
+      "css": "emo-sunglasses",
+      "code": 59401,
+      "src": "fontelico"
+    }
+  ]
+}

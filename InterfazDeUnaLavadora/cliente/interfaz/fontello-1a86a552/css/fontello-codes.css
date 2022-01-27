@@ -1,0 +1,8 @@
+
+.icon-play-circled:before { content: '\e800'; } /* '' */
+.icon-pause-circled:before { content: '\e801'; } /* '' */
+.icon-power:before { content: '\e802'; } /* '' */
+.icon-down:before { content: '\e803'; } /* '' */
+.icon-up:before { content: '\e804'; } /* '' */
+.icon-menu:before { content: '\e805'; } /* '' */
+.icon-emo-sunglasses:before { content: '\e809'; } /* '' */

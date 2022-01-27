@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interfaz de Lavadora</title>
+	<link rel="stylesheet" href="../css/estilo.css">
+	<link rel="stylesheet" href="fontello-1a86a552/css/fontello.css">
+	<script src="../electro.js"></script>
+	<script src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body data-pagina="index">
+
+
+	<header>
+		<div class="div-cabecera">
+			<input title="boton enviar" alt="boton enviar" src="./img/boton-de-encendido-apagado.png" type="image"
+			class="button button_apagar" onclick="apagar()"/>
+			<p id="suavQueda">Suavizante: </p>
+			<p id="detergenteQueda"> Detergente: </p>
+		</div>
+	</header>
+	
+	<div id="programas" class="seccion activa">
+		<div  class="programas2">
+
+			<div class="div_programas p_izq">
+				<article class="article-botones" >
+					<h3>Programas</h3>
+					<button class="button" onclick="programa('algodon');" id="algodon">Algodón</button>
+					<button class="button" onclick="programa('seda');" id="seda">Delicada o seda</button>
+				
+					<button class="button" onclick="programa('rapido');" id="rapido">Rápido</button>
+					<button class="button" onclick="programa('lana');" id="lana">Lana</button>
+				
+					<button class="button" onclick="programa('prelavado');" id="prelavado">Prelavado</button>
+					<button class="button" onclick="programa('sintetica');" id="sintetica">Sintética</button>
+				
+					<button class="button" onclick="programa('color');" id="color">Color</button>
+					<button class="button" onclick="programa('oscura');" id="oscura">Oscura</button>
+				
+					<button class="button" onclick="programa('camisas');" id="camisas">Camisas/blusas</button>
+					<button class="button" onclick="programa('antialergias');" id="antialergias">Antialergias</button>
+				</article>
+			</div>
+
+			<div class="div_programas p_centro">
+				<article id="ultlimo" >
+				<h3>Reciente</h3>
+					<!-- <button class="button" onclick="programa('algodon');" >Algodón</button> -->
+				</article>
+			</div>
+
+			<!-- <div class="div_programas p_dcha">
+				<h3>Empezar lavado</h3>
+				<article>
+					<input title="boton lavar" class="button btn_play" alt="boton lavar" src="./img/play3.png" 
+					type="image"  onclick="apagar()"/>
+				</article>
+			</div> -->
+		</div>
+	</div>
+
+	
+
+	<div id="resumen" class="seccion">
+		<div class="programas2" >
+			
+			<div><button class="button" id="bloqueo"></button></div>
+			<div id="presets" class="div_programas">
+				<h3>Parámetros de programa</h3>
+				<div><label>Detergente: <input id="detergente" type="number" value="4"/></label></div>
+				<div><label>Suavizante: <input id="suavizante" type="number" value="3" /></label></div>
+				<div><label>Agua: <input id="nivelAgua" type="number" value="70" /></label></div>
+				<div><label>Temperatua lavado: <input id="temperaturaLavado" type="number" value="50" /></label></div>
+				<div><label>Revoluciones lavado: <input id="revolucionesLavado" type="number" value="100" /></label></div>
+				<div><label>Tiempo lavado: <input id="tiempoLavado" type="number" value="1" /></label></div>
+				<div><label>Revoluciones centrifugado: <input id="revolucionesCentrifugado" type="number" value="800" /></label>
+				</div>
+				<div><label>Tiempo centrifugado: <input id="tiempoCentrifugado" type="number" value="1" /></label></div>
+			</div>
+			<div><button accesskey="w" class="button" id="lavar">Lavar</button></div>
+			<!-- accesskey con w de wash -->
+		</div>
+	</div>
+
+	<div id="lavado" class="seccion">
+		<div id="sinLavado" class="seccion activa centrar">
+			<h1>Necesitas iniciar un lavado</h1>
+		</div>
+		<div id="enCurso" class="seccion centrar">
+			<h1>En curso...</h1>
+		</div>
+		<div id="terminado" class="seccion centrar">
+			<h1>¡Terminado!</h1>
+		</div>
+
+		<div><span id="countdown"></span></div>
+
+		<!-- <button class="button"><span class="icon-play-circled"></span></button>
+		<button class="button"><span class="icon-pause-circled"></span></button> -->
+	</div>
+	<!-- </section> -->
+
+	<footer>
+		<nav>
+            <ul>
+                <!-- <li><a href="index.html">Programas</span></a></li>
+                <li><a href="resumen.html">Resumen de lavado</span></a></li>
+                <li><a href="lavado.html">Lavado</span></a></li> -->
+
+				<li><button class="button" onclick="irProgramas()">Programas</button></li>
+				<li><button class="button" onclick="irResumen()">Resumen de lavado</button></li>
+				<li><button class="button" onclick="irLavado()">Lavado</button></li>
+            </ul>
+        </nav>
+	</footer>
+<!-- <script>ultimoP('No hay recientes aun')</script> -->
+
+</body>
+
+</html>
