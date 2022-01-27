@@ -1,0 +1,37 @@
+	OBJ00 (10)	----------	OJB01 (10)	----------
+	OBJ10 (5)	OBJ11 (-2)	OBJ12 (2)	----------
+	EMI20 (10)	OBJ21 (4)	----------	OBJ22 (-3)
+	OBJ30 (2)	OBJ31 (5)	OBJ32 (1)	OBJ33 (4)
+	OBJ40 (4)	OBJ41 (1)	----------	OBJ43 (2)
+Emanando sin tienda: 0
+Colocando emisor: (2,2)
+	OBJ00 (10)	----------	OJB01 (10)	----------
+	OBJ10 (5)	OBJ11 (-2)	OBJ12 (2)	----------
+	EMI20 (10)	OBJ21 (4)	GIN22 (2)	OBJ22 (-3)
+	OBJ30 (2)	OBJ31 (5)	OBJ32 (1)	OBJ33 (4)
+	OBJ40 (4)	OBJ41 (1)	----------	OBJ43 (2)
+Nombre: GIN22 <ALIMENTO>
+	 Influencia: 2
+	 Valor emocional: 0.11
+	 Valor intrinseco: 0.11
+	 Poseedor: sin poseedor
+		En tienda: 0.0
+		Ondas: 1
+Emanados con ondas a +1: 0
+	OBJ00 (10)	----------	OJB01 (10)	----------
+	OBJ10 (5)	OBJ11 (-2)	OBJ12 (2)	----------
+	EMI20 (10)	OBJ21 (4)	GIN22 (2)	OBJ22 (-3)
+	OBJ30 (2)	OBJ31 (5)	OBJ32 (1)	OBJ33 (4)
+	OBJ40 (4)	OBJ41 (1)	----------	OBJ43 (2)
+Emanados con ondas a -1: 2
+	OBJ00 (10)	----------	OJB01 (10)	----------
+	OBJ10 (5)	OBJ11 (-2)	OBJ12 (2)	----------
+	EMI20 (10)	OBJ21 (4)	GIN22 (2)	OBJ22 (-3)
+	OBJ30 (2)	OBJ31 (5)	OBJ32 (1)	OBJ33 (4)
+	OBJ40 (4)	OBJ41 (1)	----------	OBJ43 (2)
+Emanados con ondas a -3: 2
+	OBJ00 (30)	----------	OJB01 (30)	----------
+	OBJ10 (15)	OBJ11 (-6)	OBJ12 (6)	----------
+	EMI20 (30)	OBJ21 (12)	GIN22 (2)	OBJ22 (-9)
+	OBJ30 (6)	OBJ31 (15)	OBJ32 (3)	OBJ33 (12)
+	OBJ40 (12)	OBJ41 (3)	----------	OBJ43 (6)

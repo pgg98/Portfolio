@@ -1,0 +1,1 @@
+SELECT DATE_FORMAT('2011-02-31','%d/%m/%Y') Fecha

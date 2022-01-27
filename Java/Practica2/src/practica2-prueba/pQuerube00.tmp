@@ -1,0 +1,33 @@
+------------------------------------------------------
+Nombre: diadema <ACCESORIO>
+	 Influencia: 10
+	 Valor emocional: 2.0999999999999996
+	 Valor intrinseco: 0.7
+	 Poseedor: sin poseedor
+		En tienda: sin tienda
+		Ondas: 3
+aura: 2.0999999999999996
+------------------------------------------------------
+Nombre: tiara <ACCESORIO>
+	 Influencia: 12
+	 Valor emocional: 2.52
+	 Valor intrinseco: 0.84
+	 Poseedor: sin poseedor
+		En tienda: sin tienda
+		Ondas: 3
+aura: 4.619999999999999
+------------------------------------------------------
+Nombre: astilla de cruz <RELICARIO>
+	 Influencia: 102
+	 Valor emocional: 4.59
+	 Valor intrinseco: 4.5
+	 Poseedor: sin poseedor
+aura: 9.209999999999999
+------------------------------------------------------
+Nombre: diente de cerberos <RELICARIO>
+	 Influencia: 30
+	 Valor emocional: 1.35
+	 Valor intrinseco: 4.5
+	 Poseedor: sin poseedor
+aura: 10.559999999999999
+Influenciados: 4

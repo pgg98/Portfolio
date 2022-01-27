@@ -1,0 +1,186 @@
+
+
+-- EJERCICIO 1
+--------------
+
+-- Si fuese necesario, borramos la tabla
+
+drop table imagenes;
+
+-- Creamos la tabla, siendo la clave primaria el nombre de la imagen
+
+create table IMAGENES (nombre varchar2(50) not null,
+                       imagen ORDImage,
+constraint pk_imagenes primary key (nombre));
+
+-- Creamos ahora el procedimiento que carga las imágenes desde la fuente original común
+
+CREATE OR REPLACE PROCEDURE CargarImagenes 
+AS
+    x_imagen     ORDImage;
+    CURSOR cursor1 is select nombre, imagen  from dbdm_ivan.imagenes_blob;
+
+BEGIN
+ for R in cursor1
+ loop
+      -- Creamos objeto ORDImagen con el contenido BLOB pero sin las propiedades
+      -- Dejamos todos los parámetros a nulo excepto el ORDSOURCE.localData, ya que luego con la llamada que haremos al método setProperties()
+      -- automáticamente se asignarán de manera interna.
+
+      -- EL constructor de ORDImage es 
+		--	ordsys.ordimage(ordsys.ordsource( contenido, null, null, null, null, 1),null, null, null, null, null, null, null)
+		--	Los parámetros de llamada al método ordimage son:
+		--	SOURCE ORDSYS.ORDSOURCE:
+		--	          LOCALDATA BLOB
+		--	          SRCTYPE VARCHAR2(4000)
+		--	          SRCLOCATION VARCHAR2(4000)
+		--	          SRCNAME VARCHAR2(4000)
+		--	          UPDATETIME DATE
+		--	          LOCAL NUMBER
+		--	HEIGHT NUMBER(38)
+		--	WIDTH NUMBER(38)
+		--	CONTENTLENGTH NUMBER(38)
+		--	FILEFORMAT VARCHAR2(4000)
+		--	CONTENTFORMAT VARCHAR2(4000)
+		--	COMPRESSIONFORMAT VARCHAR2(4000)
+		--	MIMETYPE					
+
+      x_imagen:= ordsys.ordimage(ordsys.ordsource(R.imagen, null, null, null, null, 1),null, null, null, null, null, null, null);
+      -- Le asignamos las propiedades. Es el propio ORACLE INTERMEDIA quien analiza la imagen, y las carga automáticamente
+      x_imagen.setProperties();
+      -- insertamos en nuestra tabla
+      insert into IMAGENES (nombre, imagen) values (R.nombre, x_imagen);
+ end loop;
+
+ COMMIT;
+ 
+END;
+
+-- Vamos a probarla: Vemos que inicialmente está vacía:
+
+select * from imagenes;
+
+-- Ejecutamos el procedimiento para cargarlas usando este bloque Pl/SQL
+
+begin 
+
+   -- La vaciamos antes para que no falle la inserción de las mismas claves primarias desde la tabla origen
+
+    delete from imagenes;
+    CargarImagenes;
+
+end;
+
+-- Vemos ahora el contenido
+
+select * from imagenes;
+
+
+-- EJERCICIO 2
+--------------
+
+CREATE OR REPLACE PROCEDURE VerPropiedades (pnombre in varchar2) AS 
+
+x_img ORDImage;
+
+begin
+    
+  begin
+     select imagen into x_img from imagenes where nombre = pnombre; 
+     DBMS_OUTPUT.PUT_LINE('-----------------------------------');
+     DBMS_OUTPUT.PUT_LINE('Propiedades de la imagen: ' || pnombre);  
+     DBMS_OUTPUT.PUT_LINE('-----------------------------------');
+     DBMS_OUTPUT.PUT_LINE('width       = ' || x_img.getWidth());
+     DBMS_OUTPUT.PUT_LINE('height      = ' || x_img.getHeight());
+     DBMS_OUTPUT.PUT_LINE('size        = ' || x_img.getContentLength());
+     DBMS_OUTPUT.PUT_LINE('file type   = ' ||  x_img.getFileFormat());
+     DBMS_OUTPUT.PUT_LINE('type        = ' ||  x_img.getContentFormat());
+     DBMS_OUTPUT.PUT_LINE('compression = ' || x_img.getCompressionFormat());
+     DBMS_OUTPUT.PUT_LINE('mime type   = ' || x_img.getMimeType());
+     DBMS_OUTPUT.PUT_LINE('-----------------------------------');
+    
+  exception
+       When no_data_found then 
+       DBMS_OUTPUT.PUT_LINE('No existe la imagen: ' || pnombre);
+   end;
+   
+end;
+
+--- Comprobamos
+
+set serveroutput on;
+ begin 
+   verpropiedades ('hommer1');
+end;
+
+
+-- EJERCICIO 3
+------------
+
+CREATE OR REPLACE PROCEDURE Ampliarx2 (pnombre in varchar2) AS 
+
+x_img ORDImage;
+
+begin
+    
+  begin
+
+     -- En este select utilizamos el atributo "FOR UPDATE" para bloquear los registros de la tabla, ya que luego los modificaremos con UPDATE.
+     -- Aunque no aplica a nuestra práctica, es necesario para entornos multiusuario.
+
+     select imagen into x_img from imagenes where nombre = pnombre for update;
+     
+     x_img.process('scale=2');
+     x_img.setProperties();
+     update imagenes set imagen = x_img where nombre = pnombre;
+      EXCEPTION
+         When no_data_found then 
+           DBMS_OUTPUT.PUT_LINE('No existe la imagen: ' || pnombre);
+         -- Solo podemos hacer este tipo de proceso si la foto esta almacenada internamente  
+         WHEN ORDSYS.ORDImageExceptions.DATA_NOT_LOCAL THEN
+              DBMS_OUTPUT.PUT_LINE('La imagen no esta almacenada en la BD sino externamente.');
+    end;
+  
+COMMIT;
+END;
+
+
+--- Lo ejecutamos usando este bloque
+
+set serveroutput on;
+ begin 
+   verpropiedades ('hommer1');
+   ampliarX2('hommer1');
+   verpropiedades ('hommer1');
+end;
+
+
+
+-- EJERCICIO 4
+--------------
+
+
+CREATE OR REPLACE PROCEDURE Girar90  (pnombre in varchar2) AS 
+
+x_img ORDImage;
+
+begin
+    
+  begin
+     select imagen into x_img from imagenes where nombre = pnombre for update;
+     x_img.process('rotate="90"');
+     x_img.setProperties();
+     update imagenes set imagen = x_img where nombre = pnombre;
+      EXCEPTION
+         When no_data_found then 
+           DBMS_OUTPUT.PUT_LINE('No existe la imagen');
+         -- Solo podemos hacer este tipo de proceso si la foto está almacenada internamente  
+         WHEN ORDSYS.ORDImageExceptions.DATA_NOT_LOCAL THEN
+              DBMS_OUTPUT.PUT_LINE('La imagen no esta almacenada en la BD sino externamente.');
+    end;
+COMMIT;
+END;
+
+
+
+

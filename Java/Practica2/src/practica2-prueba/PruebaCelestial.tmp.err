@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.NullPointerException
+	at PruebaCelestial.main(PruebaCelestial.java:133)

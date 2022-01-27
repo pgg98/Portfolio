@@ -1,0 +1,17 @@
+Galadriel ha influido en Ron y su estado ahora es 5.000
+Uriel ha influido en Marni y su estado ahora es 5.000
+Ron es adepto de Galadriel
+Marni es adepto de Uriel
+Ron se empareja con Marni -> true
+Ron se relaciona con Marni -> 4.000
+Ron(V) o<->o Marni(M) - 12.000 - Galadriel(Querube)
+Relaciones:
+Hijos:
+Marni-Ron 
+Marni(M) o<->o Ron(V) - 12.000 - Uriel(Querube)
+Relaciones:
+Hijos:
+Marni-Ron 
+Marni-Ron(V) - 5.000 - Galadriel(Querube)
+Relaciones:
+Hijos:

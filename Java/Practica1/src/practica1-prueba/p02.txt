@@ -1,0 +1,7 @@
+Datos del objeto camiseta:
+Tipo -> ropa
+Valor -> 6.8
+Influencia -> 5
+No tiene poseedor
+Valor emocional -> 0.340
+Descripcion -> TARJETA 3.2 aniversario 9

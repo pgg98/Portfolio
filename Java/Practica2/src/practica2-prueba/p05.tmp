@@ -1,0 +1,31 @@
+Descripcion -> RELICARIO 4.5 collar 3
+Descripcion -> TARJETA 3.2 bodas de plata -4
+Descripcion -> COCHE 9.0 Peugeot 308 3
+Descripcion -> CASA 10.0 Villa Marta -4; -2; false
+Descripcion -> ROPA 6.8 falda 3
+Descripcion -> ALIMENTO 5.5 patatas -4
+Descripcion -> ACCESORIO 7.0 anillo 3; 3; false
+Descripcion -> RECUERDO 8.0 mini torre Eiffel -4
+Descripcion -> DINERO 10.0 75.5 3
+Descripcion -> MASCOTA 5.0 Cuqui -4; -2; false
+Hodniel influye en collar -> 0.225
+Hodniel influye en bodas de plata -> 0.128
+Hodniel influye en Peugeot 308 -> 0.450
+Hodniel influye en Villa Marta -> -1.200
+Hodniel influye en falda -> 0.340
+Hodniel influye en patatas -> 0.220
+Hodniel influye en anillo -> 0.630
+Hodniel influye en mini torre Eiffel -> 0.320
+Hodniel influye en 75.5 -> 0.500
+Hodniel influye en Cuqui -> -0.600
+Descripcion -> RELICARIO 4.5 collar 5
+Descripcion -> TARJETA 3.2 bodas de plata 4
+Descripcion -> COCHE 9.0 Peugeot 308 5
+Descripcion -> CASA 10.0 Villa Marta -4; 3; false
+Descripcion -> ROPA 6.8 falda 5
+Descripcion -> ALIMENTO 5.5 patatas 4
+Descripcion -> ACCESORIO 7.0 anillo 3; 3; false
+Descripcion -> RECUERDO 8.0 mini torre Eiffel 4
+Descripcion -> DINERO 10.0 75.5 5
+Descripcion -> MASCOTA 5.0 Cuqui -4; 3; false
+Hodniel ha influido en 10 y su aura es 1.013

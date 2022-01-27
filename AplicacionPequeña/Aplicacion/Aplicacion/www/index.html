@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimumscale=1, width=device-width">
+    <!--Apache Cordova-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <!--JQUERY-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!--JQUERY MOBILE-->
+    <link rel="stylesheet" href="css/jquery.mobile.css" />
+    <script type="text/javascript" src="scripts/jquery.mobile.js"></script>
+    <!--JQUERY, Datatabla-->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <script type="text/javascript"
+            src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <title>Informaciones Guillén</title>
+</head>
+<body>
+
+    <!--Menu principal-->
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Informaciones Guillén</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>Selecciona un apartado para más información</p>
+            <p><a href="#two" class="ui-btn ui-shadow ui-corner-all" onclick="GetMap()">Municipios España por debajo de 200m</a></p>
+            <p><a href="#three" class="ui-btn ui-shadow ui-corner-all" onclick="GetEstaciones()">Estaciones meteorológicas españolas</a></p>
+            <p><a href="#four" class="ui-btn ui-shadow ui-corner-all" onclick="tiempo()">Información meteorológica C.V.</a></p>
+
+        </div>
+        <div data-role="footer">
+            <h4>En cada página encontrarás algo interesante que descubrir</h4>
+        </div>
+        <h3>Otras Páginas:</h3>
+        <p><a href="#popup" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" datatransition="pop">Acerca del creador...</a></p>
+    </div>
+
+    <!--Primer boton-->
+    <div data-role="page" id="two" data-theme="a">
+        <div data-role="header">
+            <h1>Municipios España Específicos</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>Aquí se muestran los municipios españoles que tienen una altitud inferior a 200m sobre el nivel del mar.</p>
+
+            <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+        </div>
+        <p>
+            <a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Atrás</a>
+        </p>
+        <div data-role="footer">
+            <h4>Para más información pulse sobre el marcador de los municipios</h4>
+        </div>
+    </div>
+
+    <!--Segundo boton-->
+    <div data-role="page" id="three" data-theme="a">
+        <div data-role="header">
+            <h1>Estaciones meteorológicas españolas</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>Aquí podrás consultar todas las estaciones meterológicas que se encuentran en España actualmente.</p>
+        </div>
+
+        <div role="main" class="ui-content">
+            <table id="dataGrid" class="table table-striped table-bordered" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+
+        <p>
+            <a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Atrás</a>
+        </p>
+        <div data-role="footer">
+            <h4>Tabla con nombres de las estaciones meteorológicas</h4>
+        </div>
+    </div>
+
+    <!--Tercer boton-->
+    <div data-role="page" id="four" data-theme="a">
+        <div data-role="header">
+            <h1>Información meteorológica C.V.</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>Toda la información meterológica de la Comunidad Valenciana</p>
+
+            <div id="mapa2" style="position:relative;width:600px;height:400px;"></div>
+        </div>
+        <p>
+            <a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Atrás</a>
+        </p>
+        <div data-role="footer">
+            <h4>Valores climatológicos obtenidos de la api correspondiente de AEMET</h4>
+        </div>
+    </div>
+
+    <!--Creditos-->
+    <div data-role="page" id="popup">
+        <div data-role="header" data-theme="b">
+            <h1>Acerca del autor</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <h2>Pablo Guillén García</h2>
+            <p>DNI: 48794309Q</p>
+            <p>Email: pgg98@gcloud.ua.es</p>
+            
+            <img src="images/miPutaCara.jpeg" height="150" width="150"/>
+            <p><a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btninline ui-icon-back ui-btn-icon-left">Atrás</a></p>
+        </div>
+        <div data-role="footer">
+            <h4>Una página hecha con mucho cariño :)</h4>
+        </div>
+    </div>
+
+    
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script type='text/javascript'
+                src='http://www.bing.com/api/maps/mapcontrol'
+                async defer></script>
+    
+
+</body>
+    </html>

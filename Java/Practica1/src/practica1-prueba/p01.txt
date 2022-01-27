@@ -1,0 +1,20 @@
+RELICARIO -> posicion[0]; valor=4.5
+TARJETA -> posicion[1]; valor=3.2
+COCHE -> posicion[2]; valor=9.0
+CASA -> posicion[3]; valor=10.0
+ROPA -> posicion[4]; valor=6.8
+ALIMENTO -> posicion[5]; valor=5.5
+ACCESORIO -> posicion[6]; valor=7.0
+RECUERDO -> posicion[7]; valor=8.0
+DINERO -> posicion[8]; valor=10.0
+MASCOTA -> posicion[9]; valor=5.0
+SAM tiene 16.000 y es V
+BEL tiene 19.500 y es M
+ALEX tiene 30.000 y es V
+BEL tiene 9.500 y es M
+MATY tiene 21.000 y es V
+SAM tiene 76.000 y es M
+MANI tiene 38.000 y es V
+JD tiene 55.000 y es M
+LAN tiene 64.500 y es V
+BLOOM tiene 3.000 y es M

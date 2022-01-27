@@ -1,0 +1,2 @@
+SELECT articulo
+FROM ptienea

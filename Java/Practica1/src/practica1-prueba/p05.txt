@@ -1,0 +1,17 @@
+TARJETA 3.2 aniversario 6
+CASA 10.0 apartamento 8
+DINERO 10.0 billete50 11
+ROPA 6.8 camisa 7
+ALIMENTO 5.5 caviar 10
+CASA 10.0 chalet 6
+RELICARIO 4.5 cofre 5
+ACCESORIO 7.0 corbata 11
+TARJETA 3.2 cumple 4
+RECUERDO 8.0 iman 12
+COCHE 9.0 kia ceed 5
+COCHE 9.0 panda 6
+ROPA 6.8 pantalon 9
+MASCOTA 5.0 perro 12
+RECUERDO 8.0 sombrilla 10
+ALIMENTO 5.5 tomates 8
+ROPA 6.8 vestido 9

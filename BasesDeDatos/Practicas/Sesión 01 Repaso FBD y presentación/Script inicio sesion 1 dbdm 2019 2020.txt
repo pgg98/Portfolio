@@ -1,0 +1,94 @@
+-- Borrado previo
+
+DROP TABLE personajes;
+
+CREATE TABLE personajes (
+    personaje_id       VARCHAR2(10) NOT NULL,
+    personaje_nombre   VARCHAR2(50) NOT NULL,
+    personaje_tipo     VARCHAR2(10) NOT NULL,
+    personaje_genero     CHAR(1) NOT NULL,
+    personaje_avatar   VARCHAR2(200),
+    CONSTRAINT pk_personajes PRIMARY KEY ( personaje_id ),
+    CONSTRAINT chk_genero_personaje CHECK ( upper(personaje_genero) IN (
+        'H',
+        'M'
+    ) ),
+    CONSTRAINT chk_avatar CHECK (
+        personaje_avatar LIKE 'http://%'
+        OR personaje_avatar LIKE 'https://%'
+    )
+);
+
+INSERT INTO personajes (
+    personaje_id,
+    personaje_nombre,
+    personaje_tipo,
+    personaje_genero
+) VALUES (
+    'MAGO',
+    'Hechicero hombre',
+    'MAGO',
+    'H'
+);
+
+INSERT INTO personajes (
+    personaje_id,
+    personaje_nombre,
+    personaje_tipo,
+    personaje_genero
+) VALUES (
+    'HECHICERA',
+    'Hechicera mujer',
+    'MAGO',
+    'H'
+);
+
+INSERT INTO personajes (
+    personaje_id,
+    personaje_nombre,
+    personaje_tipo,
+    personaje_genero
+) VALUES (
+    'PALO',
+    'Caballero masculino',
+    'CABALLERO',
+    'H'
+);
+
+INSERT INTO personajes (
+    personaje_id,
+    personaje_nombre,
+    personaje_tipo,
+    personaje_genero
+) VALUES (
+    'PALA',
+    'Caballero femenino',
+    'CABALLERO',
+    'M'
+);
+
+INSERT INTO personajes (
+    personaje_id,
+    personaje_nombre,
+    personaje_tipo,
+    personaje_genero
+) VALUES (
+    'BARBA',
+    'Bárbaro femenino',
+    'BÁRBARO',
+    'M'
+);
+
+INSERT INTO personajes (
+    personaje_id,
+    personaje_nombre,
+    personaje_tipo,
+    personaje_genero
+) VALUES (
+    'BARBO',
+    'Bárbaro masculino',
+    'BÁRBARO',
+    'H'
+);
+
+Commit;
