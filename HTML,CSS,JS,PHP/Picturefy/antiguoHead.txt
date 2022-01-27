@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- José Luis Segura Navarro y Pablo Guillén García -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/minimum.css" rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" />
+    <link href="../CSS/medium.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 1024px)" />
+    <link href="../CSS/maximum.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1025px)" />
+    <link rel="stylesheet" type="text/css" href="../CSS/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="../CSS/menu2.css" />
+    <link rel="stylesheet" href="fontello-b5197392/css/fontello-embedded.css">
+
+    <!-- DIFERENTES HOJAS DE ESTILO -->
+    <link rel="alternate stylesheet" type="text/css" href="../CSS/dark.css" title="Modo noche" />
+    <link rel="alternate stylesheet" type="text/css" href="../CSS/altoContraste.css" title="Estilo de alto contraste" />
+    <link rel="alternate stylesheet" type="text/css" href="../CSS/letraGrande.css" title="Estilo con letra grande" />
+    <link rel="alternate stylesheet" type="text/css" href="../CSS/accesible.css" title="Estilo accesible" />
+
+    <script src="../JS/prueba.js"></script>
+
+    <title>Picturefy</title>
+</head>
