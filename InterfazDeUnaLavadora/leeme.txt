@@ -1,7 +1,7 @@
 Usabilidad y Accesibilidad. Interfaz para electrodoméstico
 ----------------------------------------------------------
 
-El software del elecgtrodoméstico está distribuido en las siguientes carpetas:
+El software del electrodoméstico está distribuido en las siguientes carpetas:
 
 - cliente: Carpeta donde se almacena las web del emulador y de la interfaz del alumno
    - emulador: Carpeta donde se encuentra la web del emulador (NO MODIFICAR)
