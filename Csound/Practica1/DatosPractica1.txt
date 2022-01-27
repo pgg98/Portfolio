@@ -1,0 +1,10 @@
+diferencia decibelios: 31.99 db RMS
+contraste WCAG2 superado
+
+NUEVA MEDICION CON LAS MEJORAS
+diferencia decibelios: 36.14 db RMS
+contraste WCAG2 superado
+
+frecuencia fundamental del sonido
+103 HZ y -27 db
+amplificacion(db): 14,835
