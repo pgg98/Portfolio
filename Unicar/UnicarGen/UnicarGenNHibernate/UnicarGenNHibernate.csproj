@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		  <PropertyGroup>
+		    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		    <ProductVersion>8.0.30703</ProductVersion>
+		    <SchemaVersion>2.0</SchemaVersion>
+		    <ProjectGuid>{66C66636-FD6A-4A3F-A7C5-FE88BBA117AF}</ProjectGuid>
+		    <OutputType>Library</OutputType>
+		    <AppDesignerFolder>Properties</AppDesignerFolder>
+		    <RootNamespace>UnicarGenNHibernate</RootNamespace>
+		    <AssemblyName>UnicarGenNHibernate</AssemblyName>
+		    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+		    <FileAlignment>512</FileAlignment>
+		    <PublishUrl>publish\</PublishUrl>
+		    <Install>true</Install>
+		    <InstallFrom>Disk</InstallFrom>
+		    <UpdateEnabled>false</UpdateEnabled>
+		    <UpdateMode>Foreground</UpdateMode>
+		    <UpdateInterval>7</UpdateInterval>
+		    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+		    <UpdatePeriodically>false</UpdatePeriodically>
+		    <UpdateRequired>false</UpdateRequired>
+		    <MapFileExtensions>true</MapFileExtensions>
+		    <ApplicationRevision>0</ApplicationRevision>
+		    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+		    <IsWebBootstrapper>false</IsWebBootstrapper>
+		    <UseApplicationTrust>false</UseApplicationTrust>
+		    <BootstrapperEnabled>true</BootstrapperEnabled>
+		  </PropertyGroup>
+		  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		    <DebugSymbols>true</DebugSymbols>
+		    <DebugType>full</DebugType>
+		    <Optimize>false</Optimize>
+		    <OutputPath>bin\Debug\</OutputPath>
+		    <DefineConstants>DEBUG;TRACE</DefineConstants>
+		    <ErrorReport>prompt</ErrorReport>
+		    <WarningLevel>4</WarningLevel>
+		  </PropertyGroup>
+		  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		    <DebugType>pdbonly</DebugType>
+		    <Optimize>true</Optimize>
+		    <OutputPath>bin\Release\</OutputPath>
+		    <DefineConstants>TRACE</DefineConstants>
+		    <ErrorReport>prompt</ErrorReport>
+		    <WarningLevel>4</WarningLevel>
+		  </PropertyGroup>
+		<ItemGroup>
+		    <Reference Include="Castle.DynamicProxy2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\UnicarGenNHibernate\AppLib\Castle.DynamicProxy2.dll</HintPath>
+		    </Reference>
+		    <Reference Include="LinFu.DynamicProxy, Version=1.0.3.14911, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\UnicarGenNHibernate\AppLib\LinFu.DynamicProxy.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\UnicarGenNHibernate\AppLib\NHibernate.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate.ByteCode.Castle, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\UnicarGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate.ByteCode.LinFu, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\UnicarGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll</HintPath>
+		    </Reference>
+		    <Reference Include="Newtonsoft.Json, Version=4.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\UnicarGenNHibernate\AppLib\Newtonsoft.Json.dll</HintPath>
+		    </Reference>
+		     <Reference Include="jose-jwt, Version=4.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\UnicarGenNHibernate\AppLib\jose-jwt.dll</HintPath>
+		    </Reference>
+		    <Reference Include="System" />
+		    <Reference Include="System.Core">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    
+		    <Reference Include="System.Transactions" />
+		    <Reference Include="System.Xml.Linq">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    <Reference Include="System.Data.DataSetExtensions">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    <Reference Include="System.Data" />
+		    <Reference Include="System.Xml" />
+		</ItemGroup>
+		
+		<ItemGroup>
+		    <Content Include="..\UnicarGenNHibernate\AppLib\Antlr3.Runtime.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\Castle.DynamicProxy2.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\Iesi.Collections.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\LinFu.DynamicProxy.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\log4net.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\NHibernate.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\nunit.core.dll" />
+		    <Content Include="..\UnicarGenNHibernate\AppLib\nunit.framework.dll" />
+  		    <Content Include="..\UnicarGenNHibernate\AppLib\jose-jwt.dll" />
+  		</ItemGroup>
+  		
+		<ItemGroup>
+			<Compile Include="NHibernateHelper.cs" />
+		    <Compile Include="Utils\Util.cs" />
+		    <Compile Include="Exceptions\ModelException.cs"/>
+		    <Compile Include="Exceptions\DataLayerException.cs"/>
+		    
+	<Compile Include="CAD\BasicCAD.cs"/>
+	<Compile Include="CP\BasicCP.cs"/>
+	<Compile Include="EN\Unicar\UsuarioEN.cs" />
+	<Compile Include="CEN\Unicar\UsuarioCEN.cs" />
+	<Compile Include="CAD\Unicar\IUsuarioCAD.cs" />
+	<Compile Include="CAD\Unicar\UsuarioCAD.cs" />
+	<Compile Include="CP\Unicar\UsuarioCP.cs" />
+			
+			
+			<Compile Include="CEN\Unicar\UsuarioCEN_Recuperarcontraseña.cs" />
+			
+			
+			
+			
+			<Compile Include="CEN\Unicar\UsuarioCEN_Login.cs" />
+			
+			
+	<Compile Include="EN\Unicar\ValoracionEN.cs" />
+	<Compile Include="CEN\Unicar\ValoracionCEN.cs" />
+	<Compile Include="CAD\Unicar\IValoracionCAD.cs" />
+	<Compile Include="CAD\Unicar\ValoracionCAD.cs" />
+	<Compile Include="CP\Unicar\ValoracionCP.cs" />
+			
+			
+			
+			
+			
+			
+	<Compile Include="EN\Unicar\ViajeEN.cs" />
+	<Compile Include="CEN\Unicar\ViajeCEN.cs" />
+	<Compile Include="CAD\Unicar\IViajeCAD.cs" />
+	<Compile Include="CAD\Unicar\ViajeCAD.cs" />
+	<Compile Include="CP\Unicar\ViajeCP.cs" />
+			
+			
+			
+			
+			<Compile Include="CP\Unicar\ViajeCP_ReservarViaje.cs" />
+			
+			
+			
+			
+			
+			
+			
+	<Compile Include="EN\Unicar\AdministradorEN.cs" />
+	<Compile Include="CEN\Unicar\AdministradorCEN.cs" />
+	<Compile Include="CAD\Unicar\IAdministradorCAD.cs" />
+	<Compile Include="CAD\Unicar\AdministradorCAD.cs" />
+	<Compile Include="CP\Unicar\AdministradorCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Unicar\VehiculoEN.cs" />
+	<Compile Include="CEN\Unicar\VehiculoCEN.cs" />
+	<Compile Include="CAD\Unicar\IVehiculoCAD.cs" />
+	<Compile Include="CAD\Unicar\VehiculoCAD.cs" />
+	<Compile Include="CP\Unicar\VehiculoCP.cs" />
+			
+			
+			
+			
+			
+			
+	<Compile Include="EN\Unicar\AlertaEN.cs" />
+	<Compile Include="CEN\Unicar\AlertaCEN.cs" />
+	<Compile Include="CAD\Unicar\IAlertaCAD.cs" />
+	<Compile Include="CAD\Unicar\AlertaCAD.cs" />
+	<Compile Include="CP\Unicar\AlertaCP.cs" />
+			<Compile Include="CP\Unicar\AlertaCP_New_.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Unicar\ConductorEN.cs" />
+	<Compile Include="CEN\Unicar\ConductorCEN.cs" />
+	<Compile Include="CAD\Unicar\IConductorCAD.cs" />
+	<Compile Include="CAD\Unicar\ConductorCAD.cs" />
+	<Compile Include="CP\Unicar\ConductorCP.cs" />
+			
+			
+			
+			<Compile Include="CP\Unicar\ConductorCP_AvisarUsuario.cs" />
+			
+			
+			
+	<Compile Include="EN\Unicar\PasajeroEN.cs" />
+	<Compile Include="CEN\Unicar\PasajeroCEN.cs" />
+	<Compile Include="CAD\Unicar\IPasajeroCAD.cs" />
+	<Compile Include="CAD\Unicar\PasajeroCAD.cs" />
+	<Compile Include="CP\Unicar\PasajeroCP.cs" />
+			
+			
+			
+			
+			
+			
+			<Compile Include="CP\Unicar\PasajeroCP_BorrarPasajero.cs" />
+			
+	<Compile Include="EN\Unicar\DireccionEN.cs" />
+	<Compile Include="CEN\Unicar\DireccionCEN.cs" />
+	<Compile Include="CAD\Unicar\IDireccionCAD.cs" />
+	<Compile Include="CAD\Unicar\DireccionCAD.cs" />
+	<Compile Include="CP\Unicar\DireccionCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Unicar\LocalidadEN.cs" />
+	<Compile Include="CEN\Unicar\LocalidadCEN.cs" />
+	<Compile Include="CAD\Unicar\ILocalidadCAD.cs" />
+	<Compile Include="CAD\Unicar\LocalidadCAD.cs" />
+	<Compile Include="CP\Unicar\LocalidadCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="Enumerated\Unicar\TipoAlertaEnum.cs" />
+	<Compile Include="Enumerated\Unicar\TipoUsuEnum.cs" />
+	
+	
+
+		    
+	
+
+		    <Compile Include="Properties\AssemblyInfo.cs" />
+		    <Compile Include="Properties\Settings.Designer.cs">
+		      <AutoGen>True</AutoGen>
+		      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+		      <DependentUpon>Settings.settings</DependentUpon>
+		    </Compile>
+		  </ItemGroup>
+		  <ItemGroup>
+		  
+	<EmbeddedResource Include="Mappings\Unicar\usuario.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\valoracion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\viaje.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\administrador.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\vehiculo.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\alerta.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\conductor.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\pasajero.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\direccion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Unicar\localidad.hbm.xml" />
+	
+	
+
+		  </ItemGroup>
+		  <ItemGroup>
+		    <Content Include="hibernate.cfg.xml">
+		      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		    </Content>
+		  </ItemGroup>
+		  <ItemGroup>
+		    <None Include="app.config" />
+		    <None Include="Properties\Settings.settings">
+		      <Generator>SettingsSingleFileGenerator</Generator>
+		      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+		    </None>
+		        <None Include="Resources\xsd\nhibernate-configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\xsd\nhibernate-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+		  </ItemGroup>
+	 	
+		
+	
+		<ItemGroup>
+		    <ProjectReference Include="..\APIExterna\APIExterna.csproj">
+		      <Project>{4ade35c8-a0c3-49da-9e1a-11a53ca19214}</Project>
+		      <Name>APIExterna</Name>
+		    </ProjectReference>
+	    </ItemGroup>
+	    
+		  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+		  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+		       Other similar extension points exist, see Microsoft.Common.targets.
+		  <Target Name="BeforeBuild">
+		  </Target>
+		  <Target Name="AfterBuild">
+		  </Target>
+		  -->
+		</Project>

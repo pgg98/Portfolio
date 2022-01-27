@@ -1,0 +1,125 @@
+﻿@model IEnumerable<UnicarAdmin.DefaultConnection.ViajeViewModel>
+
+@{
+    ViewBag.Title = "Viajes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>VIAJES</h2>
+
+<p>
+    @Html.ActionLink("Crear Nuevo Viaje", "Create")
+</p>
+
+<form asp-controller="Viaje" asp-action="Index">
+    <p>
+        Buscar viaje por id: <input type="text" name="SearchString">
+        <input type="submit" value="Buscar" />
+    </p>
+</form>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Plazas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlazasOcupadas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HoraSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaLlegada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HoraLlegada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DireccionLlegada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocalidadLlegadaNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DireccionSalida)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocalidadSalidaNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Conductor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vehiculo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Plazas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlazasOcupadas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoraSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaLlegada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoraLlegada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DireccionLlegada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocalidadLlegadaNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DireccionSalida)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocalidadSalidaNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Conductor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vehiculo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Modelo)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Borrar", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

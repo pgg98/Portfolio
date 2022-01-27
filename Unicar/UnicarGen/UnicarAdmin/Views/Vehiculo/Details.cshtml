@@ -1,0 +1,51 @@
+﻿@model UnicarAdmin.DefaultConnection.VehiculoViewModel
+
+@{
+    ViewBag.Title = "Detalles del vehículo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DETALLES</h2>
+
+<div>
+    <h4>Detalles del vehículo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Matricula)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Matricula)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modelo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Conductor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Conductor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Volver a la lista", "Index")
+</p>

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<UnicarAdmin.DefaultConnection.VehiculoViewModel>
+
+@{
+    ViewBag.Title = "Vehículos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>VEHÍCULOS</h2>
+
+<p>
+    @Html.ActionLink("Crear nuevo vahículo", "Create")
+</p>
+
+<form asp-controller="Viaje" asp-action="Index">
+    <p>
+        Buscar vehículo por matrícula: <input type="text" name="SearchString">
+        <input type="submit" value="Buscar" />
+    </p>
+</form>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Matricula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Marca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Modelo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Conductor)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Matricula)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Modelo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Conductor)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.Matricula }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.Matricula }) |
+            @Html.ActionLink("Borrar", "Delete", new { id=item.Matricula})
+        </td>
+    </tr>
+}
+
+</table>

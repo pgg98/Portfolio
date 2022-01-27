@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="UnicarGenNHibernate"
+		                   namespace="UnicarGenNHibernate.EN.Unicar">
+		    
+		    
+			
+				
+<joined-subclass name="PasajeroEN" extends="UnicarGenNHibernate.EN.Unicar.UsuarioEN" table="Pasajero"> 
+	<key>
+    	
+				<column name="nombre_usuario"/>
+		
+    	
+   	</key>
+
+			
+					
+			
+			
+		  			
+						<bag name="Viajes" table="[usuario_viaje]"  >
+							<key>
+								
+									<column name="FK_nombre_usuario_idUsuario"/> 
+							</key>
+      						<many-to-many class="UnicarGenNHibernate.EN.Unicar.ViajeEN">
+									<column name="FK_attribute_idViajes"/> 
+      						</many-to-many>
+    					</bag>
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="PasajeroENReadAllHQL">from PasajeroEN</query>
+		</hibernate-mapping>
+	

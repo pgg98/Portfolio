@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="UnicarGenNHibernate"
+		                   namespace="UnicarGenNHibernate.EN.Unicar">
+		    
+		    
+			
+				<class name="UsuarioEN" table="Usuario"> 
+						<id name="Nombre_usuario" column="nombre_usuario"/> 
+			
+					
+					<property name="Nombre" type="string"> 
+						<column name="nombre"  not-null="true"/>
+					</property>
+					<property name="Apellidos" type="string"> 
+						<column name="apellidos"  not-null="true"/>
+					</property>
+					<property name="Email" type="string"> 
+						<column name="email"  unique="true" not-null="true"/>
+					</property>
+					<property name="Pass" type="string"> 
+						<column name="pass"  not-null="true"/>
+					</property>
+					<property name="ValoracionMedia" type="double"> 
+						<column name="valoracionMedia"  not-null="true"/>
+					</property>
+					<property name="Tipo" > 
+						<column name="tipo"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+			
+		  			
+						<bag name="Valoracion" >
+							<key>
+							
+								
+								<column name="FK_nombre_usuario_idUsuario"/>
+					      	</key>
+							<one-to-many class="UnicarGenNHibernate.EN.Unicar.ValoracionEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Alerta" >
+							<key>
+							
+								
+								<column name="FK_nombre_usuario_idUsuario"/>
+					      	</key>
+							<one-to-many class="UnicarGenNHibernate.EN.Unicar.AlertaEN"/>
+					    </bag>
+					
+			
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="UsuarioENReadAllHQL">from UsuarioEN</query>
+		  <query name="UsuarioENdameUsuarioporEmailHQL"><![CDATA[FROM UsuarioEN as usu where usu.Email = :p_email]]></query>
+		</hibernate-mapping>
+	

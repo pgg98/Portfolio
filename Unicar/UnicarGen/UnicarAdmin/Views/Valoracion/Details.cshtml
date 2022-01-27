@@ -1,0 +1,58 @@
+﻿@model UnicarAdmin.Models.ValoracionViewModel
+
+@{
+    ViewBag.Title = "Detalles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <h2>Detalles</h2>
+
+<div>
+    <h4>Detalles de valoración</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Comentario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comentario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Valoracion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Valoracion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Viaje)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Viaje)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pasajero)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pasajero)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Vovler a la lista", "Index")
+</p>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="UnicarGenNHibernate"
+		                   namespace="UnicarGenNHibernate.EN.Unicar">
+		    
+		    
+			
+				<class name="VehiculoEN" table="Vehiculo"> 
+						<id name="Matricula" column="attribute"/> 
+			
+					
+					<property name="Marca" type="string"> 
+						<column name="marca"  not-null="true"/>
+					</property>
+					<property name="Modelo" type="string"> 
+						<column name="modelo"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<many-to-one name="Conductor" class="UnicarGenNHibernate.EN.Unicar.ConductorEN" >	
+								<column name="FK_nombre_usuario_idConductor"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="Viaje" >
+							<key>
+							
+								
+								<column name="FK_attribute_idVehiculo"/>
+					      	</key>
+							<one-to-many class="UnicarGenNHibernate.EN.Unicar.ViajeEN"/>
+					    </bag>
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="VehiculoENReadAllHQL">from VehiculoEN</query>
+		</hibernate-mapping>
+	

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="UnicarGenNHibernate"
+		                   namespace="UnicarGenNHibernate.EN.Unicar">
+		    
+		    
+			
+				<class name="ValoracionEN" table="Valoracion"> 
+				  	
+						<id name="Id" column="id" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Comentario" type="string"> 
+						<column name="comentario"  not-null="true"/>
+					</property>
+					<property name="Valoracion" type="integer"> 
+						<column name="valoracion"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<many-to-one name="Viaje" class="UnicarGenNHibernate.EN.Unicar.ViajeEN" >	
+								<column name="FK_attribute_idViaje"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Usuario" class="UnicarGenNHibernate.EN.Unicar.UsuarioEN" >	
+								<column name="FK_nombre_usuario_idUsuario"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ValoracionENReadAllHQL">from ValoracionEN</query>
+		  <query name="ValoracionENbuscarValoracionUsuarioHQL"><![CDATA[select val FROM ValoracionEN as val inner join val.Viaje.Pasajeros pas  where pas.Nombre_usuario = :p_nombreUsuario]]></query>
+		</hibernate-mapping>
+	

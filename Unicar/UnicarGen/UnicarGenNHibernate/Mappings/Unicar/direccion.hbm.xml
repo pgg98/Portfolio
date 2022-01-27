@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="UnicarGenNHibernate"
+		                   namespace="UnicarGenNHibernate.EN.Unicar">
+		    
+		    
+			
+				<class name="DireccionEN" table="Direccion"> 
+				  	
+						<id name="Id" column="id" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Direccion" type="string"> 
+						<column name="direccion"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<bag name="ViajesLlegada" >
+							<key>
+							
+								
+								<column name="FK_id_idDireccionLlegada"/>
+					      	</key>
+							<one-to-many class="UnicarGenNHibernate.EN.Unicar.ViajeEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="ViajeSalida" >
+							<key>
+							
+								
+								<column name="FK_id_idDireccionSalida"/>
+					      	</key>
+							<one-to-many class="UnicarGenNHibernate.EN.Unicar.ViajeEN"/>
+					    </bag>
+					
+			
+			
+		  			
+						<many-to-one name="Localidad" class="UnicarGenNHibernate.EN.Unicar.LocalidadEN" >	
+								<column name="FK_id_idLocalidad"/> 
+						</many-to-one>
+											 					
+			
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="DireccionENReadAllHQL">from DireccionEN</query>
+		</hibernate-mapping>
+	

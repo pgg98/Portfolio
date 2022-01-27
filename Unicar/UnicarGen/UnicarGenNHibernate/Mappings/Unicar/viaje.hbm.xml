@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="UnicarGenNHibernate"
+		                   namespace="UnicarGenNHibernate.EN.Unicar">
+		    
+		    
+			
+				<class name="ViajeEN" table="Viaje"> 
+				  	
+						<id name="Id" column="attribute" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Fechasalida" type="date"> 
+						<column name="fechasalida"  not-null="true"/>
+					</property>
+					<property name="Fechallegada" type="date"> 
+						<column name="fechallegada"  not-null="true"/>
+					</property>
+					<property name="Plazas" type="integer"> 
+						<column name="plazas"  not-null="true"/>
+					</property>
+					<property name="Precio" type="double"> 
+						<column name="precio"  not-null="true"/>
+					</property>
+					<property name="Plazasocupadas" type="integer"> 
+						<column name="plazasocupadas"  not-null="true"/>
+					</property>
+					<property name="Horasalida" type="timestamp"> 
+						<column name="horasalida"  not-null="true"/>
+					</property>
+					<property name="Horallegada" type="timestamp"> 
+						<column name="horallegada"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+		  			
+						<bag name="Pasajeros" table="[usuario_viaje]" inverse="true" >
+							<key>
+								
+									<column name="FK_attribute_idViajes"/> 
+							</key>
+      						<many-to-many class="UnicarGenNHibernate.EN.Unicar.PasajeroEN">
+									<column name="FK_nombre_usuario_idUsuario"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<many-to-one name="Conductor" class="UnicarGenNHibernate.EN.Unicar.ConductorEN" >	
+								<column name="FK_nombre_usuario_idConductor"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+		  			
+						<bag name="Valoracion" >
+							<key>
+							
+								
+								<column name="FK_attribute_idViaje"/>
+					      	</key>
+							<one-to-many class="UnicarGenNHibernate.EN.Unicar.ValoracionEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Alerta" >
+							<key>
+							
+								
+								<column name="FK_attribute_idViaje"/>
+					      	</key>
+							<one-to-many class="UnicarGenNHibernate.EN.Unicar.AlertaEN"/>
+					    </bag>
+					
+			
+		  			
+						<many-to-one name="Vehiculo" class="UnicarGenNHibernate.EN.Unicar.VehiculoEN" >	
+								<column name="FK_attribute_idVehiculo"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="DireccionLlegada" class="UnicarGenNHibernate.EN.Unicar.DireccionEN" >	
+								<column name="FK_id_idDireccionLlegada"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="DireccionSalida" class="UnicarGenNHibernate.EN.Unicar.DireccionEN" >	
+								<column name="FK_id_idDireccionSalida"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ViajeENReadAllHQL">from ViajeEN</query>
+		  <query name="ViajeENbuscarViajeDireccionHQL"><![CDATA[select viajes FROM ViajeEN as viajes where viajes.DireccionSalida.Localidad.Nombre =:p_NombreLocalidad]]></query>
+		  <query name="ViajeENbuscarViajeConductorHQL"><![CDATA[select via FROM ViajeEN as via  where via.Conductor.Nombre_usuario = :p_nombreUsuario]]></query>
+		  <query name="ViajeENbuscarViajePorPasajeroHQL"><![CDATA[SELECT viaje FROM ViajeEN as viaje INNER JOIN viaje.Pasajeros as pasa WHERE pasa.Nombre_usuario=:p_pasajero]]></query>
+		</hibernate-mapping>
+	

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="UnicarGenNHibernate"
+		                   namespace="UnicarGenNHibernate.EN.Unicar">
+		    
+		    
+			
+				<class name="AlertaEN" table="Alerta"> 
+				  	
+						<id name="Id" column="attribute" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Tipo" > 
+						<column name="tipo"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+						<many-to-one name="Viaje" class="UnicarGenNHibernate.EN.Unicar.ViajeEN" >	
+								<column name="FK_attribute_idViaje"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Usuario" class="UnicarGenNHibernate.EN.Unicar.UsuarioEN" >	
+								<column name="FK_nombre_usuario_idUsuario"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="AlertaENReadAllHQL">from AlertaEN</query>
+		</hibernate-mapping>
+	
