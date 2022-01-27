@@ -1,0 +1,28 @@
+2021-05-06T14:31:25+00:00 CRITICAL syntax error, unexpected token "/", expecting end of file en C:\xamppGCM\htdocs\wordpress\wp-content\themes\astra-child\functions.php en la línea 62
+
+2021-05-06T14:31:40+00:00 CRITICAL syntax error, unexpected identifier "args", expecting variable or "{" or "$" en C:\xamppGCM\htdocs\wordpress\wp-content\themes\astra-child\functions.php en la línea 91
+
+2021-05-06T14:31:48+00:00 CRITICAL syntax error, unexpected identifier "args", expecting variable or "{" or "$" en C:\xamppGCM\htdocs\wordpress\wp-content\themes\astra-child\functions.php en la línea 91
+
+2021-05-06T14:31:57+00:00 CRITICAL syntax error, unexpected identifier "args", expecting variable or "{" or "$" en C:\xamppGCM\htdocs\wordpress\wp-content\themes\astra-child\functions.php en la línea 91
+
+2021-05-06T14:32:04+00:00 CRITICAL syntax error, unexpected identifier "args", expecting variable or "{" or "$" en C:\xamppGCM\htdocs\wordpress\wp-content\themes\astra-child\functions.php en la línea 91
+
+2021-05-06T15:26:58+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 17
+
+2021-05-06T15:27:00+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 17
+
+2021-05-06T15:27:00+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 17
+
+2021-05-06T15:27:33+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 24
+
+2021-05-06T15:27:35+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 24
+
+2021-05-06T15:27:35+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 24
+
+2021-05-06T15:28:01+00:00 CRITICAL syntax error, unexpected token ":", expecting ";" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 78
+
+2021-05-06T15:28:02+00:00 CRITICAL syntax error, unexpected token ":", expecting ";" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 78
+
+2021-05-06T15:28:02+00:00 CRITICAL syntax error, unexpected token ":", expecting ";" en C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php en la línea 78
+

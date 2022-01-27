@@ -1,0 +1,24 @@
+2021-05-11T15:24:34+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xamppGCM\htdocs\wordpress/wp-admin/include/image.php' (include_path='C:\xamppGCM\php\PEAR') in C:\xamppGCM\htdocs\wordpress\wp-content\themes\storefront-child\page-insert-promo-restricted.php:60
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppGCM\\htd...')
+#2 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#3 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-content\themes\storefront-child\page-insert-promo-restricted.php en la línea 60
+
+2021-05-11T15:35:08+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xamppGCM\htdocs\wordpress/wp-admin/include/image.php' (include_path='C:\xamppGCM\php\PEAR') in C:\xamppGCM\htdocs\wordpress\wp-content\themes\storefront-child\page-insert-promo-restricted.php:60
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppGCM\\htd...')
+#2 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#3 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-content\themes\storefront-child\page-insert-promo-restricted.php en la línea 60
+
+2021-05-11T16:19:42+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xamppGCM\htdocs\wordpress/wp-admin/include/image.php' (include_path='C:\xamppGCM\php\PEAR') in C:\xamppGCM\htdocs\wordpress\wp-content\themes\storefront-child\page-insert-promo-restricted.php:60
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppGCM\\htd...')
+#2 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#3 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-content\themes\storefront-child\page-insert-promo-restricted.php en la línea 60
+

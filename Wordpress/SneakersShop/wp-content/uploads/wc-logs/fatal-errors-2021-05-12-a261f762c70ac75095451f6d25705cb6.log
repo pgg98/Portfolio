@@ -1,0 +1,108 @@
+2021-05-12T10:49:07+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php:789
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(550): WP_REST_Attachments_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#1 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1139): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#2 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/media/(?...', Array, NULL)
+#3 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/media/22...')
+#5 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#6 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xamppGCM\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#8 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#9 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#10 C:\xamppGCM\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#11 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#13 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php en la línea 789
+
+2021-05-12T15:27:19+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php:789
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(550): WP_REST_Attachments_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#1 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1139): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#2 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/media/(?...', Array, NULL)
+#3 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/media/22...')
+#5 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#6 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xamppGCM\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#8 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#9 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#10 C:\xamppGCM\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#11 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#13 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php en la línea 789
+
+2021-05-12T15:35:38+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php:789
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(550): WP_REST_Attachments_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#1 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1139): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#2 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/media/(?...', Array, NULL)
+#3 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/media/22...')
+#5 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#6 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xamppGCM\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#8 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#9 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#10 C:\xamppGCM\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#11 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#13 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php en la línea 789
+
+2021-05-12T15:46:56+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php:789
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(550): WP_REST_Attachments_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#1 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1139): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#2 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/media/(?...', Array, NULL)
+#3 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/media/22...')
+#5 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#6 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xamppGCM\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#8 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#9 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#10 C:\xamppGCM\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#11 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#13 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php en la línea 789
+
+2021-05-12T16:14:44+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php:789
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(550): WP_REST_Attachments_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#1 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1139): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#2 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/media/(?...', Array, NULL)
+#3 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/media/22...')
+#5 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#6 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xamppGCM\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#8 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#9 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#10 C:\xamppGCM\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#11 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#13 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php en la línea 789
+
+2021-05-12T16:14:49+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php:789
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(550): WP_REST_Attachments_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#1 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1139): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#2 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/media/(?...', Array, NULL)
+#3 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/wp/v2/media/22...')
+#5 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#6 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xamppGCM\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#8 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#9 C:\xamppGCM\htdocs\wordpress\wp-includes\class-wp.php(750): WP->parse_request('')
+#10 C:\xamppGCM\htdocs\wordpress\wp-includes\functions.php(1291): WP->main('')
+#11 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#13 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-attachments-controller.php en la línea 789
+

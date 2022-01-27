@@ -1,0 +1,2883 @@
+# Translation of Plugins - Contact Form to Manage and respond to conversations with customers — Happyforms - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Contact Form to Manage and respond to conversations with customers — Happyforms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-03 19:12:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Contact Form to Manage and respond to conversations with customers — Happyforms - Stable (latest release)\n"
+
+#: inc/classes/parts/class-part-likert-scale-dummy.php:8
+msgid "Likert Scale"
+msgstr "Escala Likert"
+
+#: core/classes/class-form-email.php:132
+msgid "From email address"
+msgstr "Dirección de correo electrónico del remitente"
+
+#: core/classes/class-form-styles.php:858
+msgid "Color"
+msgstr "Color"
+
+#: core/classes/class-form-styles.php:853
+msgid "Dividers"
+msgstr "Divisores"
+
+#: inc/templates/customize-controls/email-parts-list-dummy.php:8
+msgid "field"
+msgstr "campo"
+
+#: inc/classes/parts/class-part-divider-dummy.php:8
+msgid "Divider"
+msgstr "Divisor"
+
+#: inc/classes/parts/class-part-media-dummy.php:8
+msgid "Media"
+msgstr "Medios"
+
+#: inc/classes/parts/class-part-layout-drawer-group.php:9
+msgid "Layout"
+msgstr "Diseño"
+
+#: inc/classes/parts/class-part-phone-dummy.php:8
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: inc/classes/parts/class-part-rating-dummy.php:8
+msgid "Star Rating"
+msgstr "Estrellas de valoración"
+
+#: inc/classes/parts/class-part-table-dummy.php:8
+msgid "Matrix Table"
+msgstr "Tabla de matriz"
+
+#: inc/classes/parts/class-part-attachment-dummy.php:8
+msgid "File Upload"
+msgstr "Subida de archivos"
+
+#: inc/classes/parts/class-part-date-dummy.php:8
+msgid "Date-Time"
+msgstr "Fecha y hora"
+
+#: inc/classes/parts/class-part-legal-dummy.php:8
+msgid "Consent Choice"
+msgstr "Opción de consentimiento"
+
+#: core/classes/parts/class-part-single-line-text.php:8
+msgid "Short Answer"
+msgstr "Respuesta corta"
+
+#: core/classes/parts/class-part-email.php:8
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: core/classes/parts/class-part-multi-line-text.php:8
+msgid "Long Answer"
+msgstr "Respuesta larga"
+
+#: core/classes/class-form-admin.php:316
+msgid "Last modified"
+msgstr "Última modificación"
+
+#: core/templates/customize-form-parts-drawer.php:47
+msgid "No fields found."
+msgstr "No se han encontrado campos."
+
+#: core/templates/customize-form-parts-drawer.php:5
+msgid "Search fields"
+msgstr "Buscar campos"
+
+#: core/helpers/helper-misc.php:940
+#: core/templates/parts/customize-checkbox.php:90
+msgid "Apply to all fields"
+msgstr "Aplicar a todos los campos"
+
+#: core/templates/customize-form-build.php:12
+msgid "Add a Field"
+msgstr "Añadir un campo"
+
+#: inc/classes/class-happyforms.php:201 inc/classes/class-happyforms.php:215
+msgid "Attach .pdf"
+msgstr "Adjuntar un .pdf"
+
+#: inc/classes/class-happyforms.php:187
+msgid "Include reply link"
+msgstr "Incluir un enlace de respuesta"
+
+#: core/templates/parts/customize-number.php:40
+msgid "Max number"
+msgstr "Número máximo"
+
+#: core/templates/parts/customize-number.php:36
+msgid "Min number"
+msgstr "Número mínimo"
+
+#: core/templates/parts/customize-multi-line-text.php:60
+#: core/classes/class-form-messages.php:44
+msgid "Max characters"
+msgstr "Caracteres máximos"
+
+#: core/templates/parts/customize-multi-line-text.php:59
+#: core/classes/class-form-messages.php:32
+msgid "Min words"
+msgstr "Palabras mínimas"
+
+#: core/templates/parts/customize-multi-line-text.php:56
+msgid "Count"
+msgstr "Recuento"
+
+#: core/templates/parts/customize-multi-line-text.php:52
+msgid "Limit"
+msgstr "Límite"
+
+#: core/classes/class-form-setup.php:165
+msgid "Redirect to a web address"
+msgstr "Redirigir a una dirección web"
+
+#: core/templates/parts/customize-multi-line-text.php:58
+#: core/classes/parts/class-part-multi-line-text.php:74
+#: core/classes/class-form-messages.php:36
+msgid "Max words"
+msgstr "Palabras máximas"
+
+#: core/templates/parts/customize-multi-line-text.php:61
+#: core/classes/parts/class-part-multi-line-text.php:70
+#: core/classes/class-form-messages.php:40
+msgid "Min characters"
+msgstr "Caracteres mínimos"
+
+#: inc/classes/class-happyforms.php:134
+msgid "Save user's meta data"
+msgstr "Guardar los datos meta del usuario"
+
+#: inc/classes/parts/class-part-website-url-dummy.php:8
+msgid "Web Address"
+msgstr "Dirección web"
+
+#: core/classes/parts/class-part-select.php:51 core/classes/class-block.php:108
+msgid "Choose"
+msgstr "Elegir"
+
+#: core/classes/class-form-styles.php:608
+msgid "Error message text"
+msgstr "Texto del mensaje de error"
+
+#: core/classes/class-form-styles.php:603
+msgid "Error message background"
+msgstr "Fondo del mensaje de error"
+
+#: core/classes/class-form-styles.php:598
+msgid "Validation message text"
+msgstr "Texto del mensaje de validación"
+
+#: core/classes/class-form-styles.php:593
+msgid "Success message text"
+msgstr "Texto de mensaje correcto"
+
+#: core/classes/class-form-styles.php:588
+msgid "Success message background"
+msgstr "Fondo de mensaje correcto"
+
+#: core/classes/class-form-styles.php:573
+msgid "Message location"
+msgstr "Ubicación del mensaje"
+
+#: core/classes/class-form-styles.php:963
+#: core/classes/class-form-styles.php:973
+msgid "Additional CSS"
+msgstr "CSS adicional"
+
+#: inc/classes/class-happyforms.php:216
+msgid "Attach a PDF to the recipient's confirmation email."
+msgstr "Adjunta un PDF al correo electrónico de confirmación del destinatario."
+
+#: inc/classes/class-happyforms.php:169
+msgid "Limit submissions"
+msgstr "Limitar los envíos"
+
+#: inc/classes/class-happyforms.php:120
+msgid "Use reCAPTCHA"
+msgstr "Usar reCAPTCHA"
+
+#: core/classes/class-form-controller.php:526
+msgid "(no title)"
+msgstr "(sin título)"
+
+#: core/classes/class-form-admin.php:409
+msgid "Undo"
+msgstr "Deshacer"
+
+#: core/classes/class-form-admin.php:407
+msgid "1 form duplicated."
+msgstr "1 formulario duplicado."
+
+#: core/classes/class-form-setup.php:147
+msgid "Send"
+msgstr "Enviar"
+
+#: core/classes/class-happyforms-core.php:207
+#: core/classes/class-happyforms-core.php:208
+msgid "Settings"
+msgstr "Ajustes"
+
+#: core/classes/class-form-email.php:137
+msgid "Reply email address"
+msgstr "Dirección de correo electrónico de respuesta"
+
+#: core/templates/parts/customize-number.php:65
+msgid "Decimal"
+msgstr "Decimal"
+
+#: core/templates/parts/customize-number.php:61
+msgid "Grouping"
+msgstr "Agrupado"
+
+#: core/templates/parts/customize-number.php:56
+msgid "Use number separators"
+msgstr "Usar separadores de números"
+
+#: core/templates/parts/customize-checkbox.php:63
+#: core/templates/parts/customize-radio.php:58
+msgid "Choices display"
+msgstr "Visualización de las opciones"
+
+#: core/templates/parts/customize-checkbox.php:59
+msgid "Add 'select all' choice"
+msgstr "Añadir la opción «Seleccionar todo»"
+
+#: core/templates/parts/customize-number.php:81
+#: core/templates/parts/customize-checkbox.php:97
+#: core/templates/parts/customize-email.php:58
+#: core/templates/parts/customize-radio.php:78
+#: core/templates/parts/customize-single-line-text.php:57
+#: core/templates/parts/customize-multi-line-text.php:76
+#: core/templates/parts/customize-select.php:66
+msgid "CSS classes"
+msgstr "Clases CSS"
+
+#: core/templates/customize-form-build.php:4
+msgid "Add title"
+msgstr "Añadir el título"
+
+#: core/templates/customize-header-actions.php:8
+msgid "Updated"
+msgstr "Actualizado"
+
+#: core/templates/customize-header-actions.php:6
+msgid "Update"
+msgstr "Actualizar"
+
+#: core/templates/customize-header-actions.php:5
+msgid "Save"
+msgstr "Guardar"
+
+#: core/classes/class-happyforms-core.php:189
+#: core/classes/class-happyforms-core.php:190
+msgid "Activity"
+msgstr "Actividad"
+
+#: inc/classes/class-happyforms.php:194
+msgid "Include referral link"
+msgstr "Incluir el enlace de referido"
+
+#: inc/classes/parts/class-part-signature-dummy.php:8
+msgid "Signature"
+msgstr "Firma"
+
+#: core/classes/class-form-styles.php:658
+msgid "Inner spacing"
+msgstr "Espaciado interior"
+
+#: core/classes/class-form-styles.php:653
+msgid "Outer spacing"
+msgstr "Espaciado exterior"
+
+#: core/helpers/helper-misc.php:207
+msgid "Thank you for creating with"
+msgstr "Gracias por crear con"
+
+#: inc/classes/parts/class-part-payments-dummy.php:8
+msgid "Payment"
+msgstr "Pago"
+
+#: core/templates/parts/customize-checkbox.php:70
+#: core/templates/parts/customize-radio.php:65
+msgid "Choices width"
+msgstr "Ancho de las opciones"
+
+#: core/templates/parts/customize-checkbox.php:42
+#: core/templates/parts/customize-radio.php:42
+#: core/templates/parts/customize-select.php:46
+msgid "Add choices"
+msgstr "Añadir opciones"
+
+#: core/templates/parts/customize-checkbox.php:36
+#: core/templates/parts/customize-radio.php:36
+#: core/templates/parts/customize-select.php:40
+msgid "Add choice"
+msgstr "Añadir una opción"
+
+#: core/templates/parts/customize-checkbox.php:28
+#: core/templates/parts/customize-checkbox.php:32
+#: core/templates/parts/customize-radio.php:28
+#: core/templates/parts/customize-radio.php:32
+#: core/templates/parts/customize-select.php:32
+#: core/templates/parts/customize-select.php:36
+msgid "Choices"
+msgstr "Opciones"
+
+#: core/classes/class-happyforms-core.php:198
+#: core/classes/class-happyforms-core.php:199
+msgid "Integrations"
+msgstr "Integraciones"
+
+#: core/templates/parts/customize-checkbox.php:124
+#: core/templates/parts/customize-radio.php:107
+#: core/templates/parts/customize-select.php:93
+msgid "More"
+msgstr "Más"
+
+#: core/templates/customize-form-part-footer.php:5
+#: core/templates/customize-form-part-logic.php:2
+msgid "Logic"
+msgstr "Lógica"
+
+#: core/helpers/helper-form-templates.php:65
+msgid "Spam protection, skip this field"
+msgstr "Protección contra spam, saltar este campo"
+
+#: core/classes/class-wp-customize-form-manager.php:170
+msgid "That's it! You'll see a basic preview of your form in the editor."
+msgstr "¡Eso es todo! Verás una vista previa básica de tu formulario en el editor."
+
+#: core/classes/class-wp-customize-form-manager.php:167
+msgid "Form saved 👏"
+msgstr "Formulario guardado 👏"
+
+#: inc/classes/parts/class-part-page-break-dummy.php:8
+msgid "Page Break"
+msgstr "Salto de página"
+
+#: inc/classes/parts/class-part-poll-dummy.php:8
+msgid "Poll"
+msgstr "Encuesta"
+
+#: inc/classes/class-happyforms.php:233
+msgid "Use theme styles"
+msgstr "Usar los estilos del tema"
+
+#: core/helpers/helper-activation.php:125
+msgid "What's your age?"
+msgstr "¿Cuál es tu edad?"
+
+#: core/helpers/helper-activation.php:70
+msgid "Sample Form"
+msgstr "Formulario de ejemplo"
+
+#: core/templates/parts/frontend-checkbox.php:13
+#: core/classes/parts/class-part-checkbox.php:83
+msgid "Select all"
+msgstr "Seleccionar todos"
+
+#: core/helpers/helper-misc.php:867
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: core/helpers/helper-misc.php:866
+msgid "Welsh"
+msgstr "Galés"
+
+#: core/helpers/helper-misc.php:865
+msgid "Walloon"
+msgstr "Valonia"
+
+#: core/helpers/helper-misc.php:864
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: core/helpers/helper-misc.php:863
+msgid "Uzbek"
+msgstr "Uzbeko"
+
+#: core/helpers/helper-misc.php:862
+msgid "Urdu"
+msgstr "Urdu"
+
+#: core/helpers/helper-misc.php:861
+msgid "Ukrainian"
+msgstr "Ucraniano"
+
+#: core/helpers/helper-misc.php:860
+msgid "Uighur"
+msgstr "Uigur"
+
+#: core/helpers/helper-misc.php:859
+msgid "Tweants"
+msgstr "Tweants"
+
+#: core/helpers/helper-misc.php:858
+msgid "Turkmen"
+msgstr "Turcomano"
+
+#: core/helpers/helper-misc.php:857
+msgid "Turkish"
+msgstr "Turco"
+
+#: core/helpers/helper-misc.php:856
+msgid "Tigrinya"
+msgstr "Tigriña"
+
+#: core/helpers/helper-misc.php:855
+msgid "Tibetan"
+msgstr "Tibetano"
+
+#: core/helpers/helper-misc.php:854
+msgid "Thai"
+msgstr "Tailandés"
+
+#: core/helpers/helper-misc.php:853
+msgid "Telugu"
+msgstr "Télugu"
+
+#: core/helpers/helper-misc.php:852
+msgid "Tatar"
+msgstr "Tártaro"
+
+#: core/helpers/helper-misc.php:851
+msgid "Tamil"
+msgstr "Tamil"
+
+#: core/helpers/helper-misc.php:850
+msgid "Tamazight"
+msgstr "Tamazight"
+
+#: core/helpers/helper-misc.php:849
+msgid "Tajik"
+msgstr "Tayiko"
+
+#: core/helpers/helper-misc.php:848
+msgid "Tahitian"
+msgstr "Tahitiano"
+
+#: core/helpers/helper-misc.php:847
+msgid "Tagalog"
+msgstr "Tagalo"
+
+#: core/helpers/helper-misc.php:846
+msgid "Swiss German"
+msgstr "Alemán de Suiza"
+
+#: core/helpers/helper-misc.php:845
+msgid "Swedish"
+msgstr "Sueco"
+
+#: core/helpers/helper-misc.php:844
+msgid "Swahili"
+msgstr "Suajili"
+
+#: core/helpers/helper-misc.php:843
+msgid "Sundanese"
+msgstr "Sundanés"
+
+#: core/helpers/helper-misc.php:842
+msgid "Spanish"
+msgstr "Español"
+
+#: core/helpers/helper-misc.php:841
+msgid "South Azerbaijani"
+msgstr "Azerbaiyano del sur"
+
+#: core/helpers/helper-misc.php:840
+msgid "Somali"
+msgstr "Somalí"
+
+#: core/helpers/helper-misc.php:839
+msgid "Slovenian"
+msgstr "Esloveno"
+
+#: core/helpers/helper-misc.php:838
+msgid "Slovak"
+msgstr "Eslovaco"
+
+#: core/helpers/helper-misc.php:837
+msgid "Sinhala"
+msgstr "Cingalés"
+
+#: core/helpers/helper-misc.php:836
+msgid "Sindhi"
+msgstr "Sindi"
+
+#: core/helpers/helper-misc.php:835
+msgid "Silesian"
+msgstr "Silesiano"
+
+#: core/helpers/helper-misc.php:834
+msgid "Serbian"
+msgstr "Serbio"
+
+#: core/helpers/helper-misc.php:833
+msgid "Scottish Gaelic"
+msgstr "Gaélico escocés"
+
+#: core/helpers/helper-misc.php:832
+msgid "Sardinian"
+msgstr "Sardo"
+
+#: core/helpers/helper-misc.php:831
+msgid "Sanskrit"
+msgstr "Sánscrito"
+
+#: core/helpers/helper-misc.php:830
+msgid "Sakha"
+msgstr "Sajá"
+
+#: core/helpers/helper-misc.php:829
+msgid "Rusyn"
+msgstr "Rusino"
+
+#: core/helpers/helper-misc.php:828
+msgid "Russian"
+msgstr "Ruso"
+
+#: core/helpers/helper-misc.php:827
+msgid "Romansh Vallader"
+msgstr "Romanche vallader"
+
+#: core/helpers/helper-misc.php:826
+msgid "Romanian"
+msgstr "Rumano"
+
+#: core/helpers/helper-misc.php:825
+msgid "Rohingya"
+msgstr "Rohinyá"
+
+#: core/helpers/helper-misc.php:824
+msgid "Punjabi"
+msgstr "Punyabí"
+
+#: core/helpers/helper-misc.php:823
+msgid "Portuguese"
+msgstr "Portugués"
+
+#: core/helpers/helper-misc.php:822
+msgid "Polish"
+msgstr "Polaco"
+
+#: core/helpers/helper-misc.php:821
+msgid "Persian"
+msgstr "Persa"
+
+#: core/helpers/helper-misc.php:820
+msgid "Pashto"
+msgstr "Pastú"
+
+#: core/helpers/helper-misc.php:819
+msgid "Ossetic"
+msgstr "Osetio"
+
+#: core/helpers/helper-misc.php:818
+msgid "Oriya"
+msgstr "Oriya"
+
+#: core/helpers/helper-misc.php:817
+msgid "Occitan"
+msgstr "Occitano"
+
+#: core/helpers/helper-misc.php:816
+msgid "Norwegian (Nynorsk)"
+msgstr "Noruego (Nynorsk)  "
+
+#: core/helpers/helper-misc.php:815
+msgid "Norwegian (Bokmål)"
+msgstr "Noruego (Bokmål)"
+
+#: core/helpers/helper-misc.php:814
+msgid "Nepali"
+msgstr "Nepalí"
+
+#: core/helpers/helper-misc.php:813
+msgid "Myanmar (Burmese)"
+msgstr "Myanmar (Birmano)"
+
+#: core/helpers/helper-misc.php:812
+msgid "Moroccan Arabic"
+msgstr "Árabe marroquí"
+
+#: core/helpers/helper-misc.php:811
+msgid "Montenegrin"
+msgstr "Montenegrino"
+
+#: core/helpers/helper-misc.php:810
+msgid "Mongolian"
+msgstr "Mongól"
+
+#: core/helpers/helper-misc.php:809
+msgid "Mingrelian"
+msgstr "Megreliano"
+
+#: core/helpers/helper-misc.php:808
+msgid "Marathi"
+msgstr "Maratí"
+
+#: core/helpers/helper-misc.php:807
+msgid "Maori"
+msgstr "Maorí"
+
+#: core/helpers/helper-misc.php:806
+msgid "Malayalam"
+msgstr "Malabar"
+
+#: core/helpers/helper-misc.php:805
+msgid "Malay"
+msgstr "Malayo"
+
+#: core/helpers/helper-misc.php:804
+msgid "Malagasy"
+msgstr "Madagascar"
+
+#: core/helpers/helper-misc.php:803
+msgid "Macedonian"
+msgstr "Macedonio"
+
+#: core/helpers/helper-misc.php:802
+msgid "Luxembourgish"
+msgstr "Luxemburgués"
+
+#: core/helpers/helper-misc.php:801
+msgid "Lithuanian"
+msgstr "Lituano"
+
+#: core/helpers/helper-misc.php:800
+msgid "Lingala"
+msgstr "Lingala"
+
+#: core/helpers/helper-misc.php:799
+msgid "Limburgish"
+msgstr "Limburgués"
+
+#: core/helpers/helper-misc.php:798
+msgid "Latvian"
+msgstr "Letón"
+
+#: core/helpers/helper-misc.php:797
+msgid "Lao"
+msgstr "Lao"
+
+#: core/helpers/helper-misc.php:796
+msgid "Kurdish"
+msgstr "Kurdo"
+
+#: core/helpers/helper-misc.php:795
+msgid "Korean"
+msgstr "Coreano"
+
+#: core/helpers/helper-misc.php:794
+msgid "Kirghiz"
+msgstr "Kirguís"
+
+#: core/helpers/helper-misc.php:793
+msgid "Kinyarwanda"
+msgstr "Kiñaruanda"
+
+#: core/helpers/helper-misc.php:792
+msgid "Khmer"
+msgstr "Camboyano"
+
+#: core/helpers/helper-misc.php:791
+msgid "Kazakh"
+msgstr "Kazajo"
+
+#: core/helpers/helper-misc.php:790
+msgid "Kannada"
+msgstr "Canarés"
+
+#: core/helpers/helper-misc.php:789
+msgid "Kabyle"
+msgstr "Cabilio"
+
+#: core/helpers/helper-misc.php:788
+msgid "Javanese"
+msgstr "Javanés"
+
+#: core/helpers/helper-misc.php:787
+msgid "Japanese"
+msgstr "Japonés"
+
+#: core/helpers/helper-misc.php:786
+msgid "Italian"
+msgstr "Italiano"
+
+#: core/helpers/helper-misc.php:785
+msgid "Irish"
+msgstr "Irlandés"
+
+#: core/helpers/helper-misc.php:784
+msgid "Indonesian"
+msgstr "Indonesio"
+
+#: core/helpers/helper-misc.php:783
+msgid "Ido"
+msgstr "Ido"
+
+#: core/helpers/helper-misc.php:782
+msgid "Icelandic"
+msgstr "Islandés"
+
+#: core/helpers/helper-misc.php:781
+msgid "Hungarian"
+msgstr "Húngaro"
+
+#: core/helpers/helper-misc.php:780
+msgid "Hindi"
+msgstr "Hindú"
+
+#: core/helpers/helper-misc.php:779
+msgid "Hebrew"
+msgstr "Hebreo"
+
+#: core/helpers/helper-misc.php:778
+msgid "Hazaragi"
+msgstr "Hazara"
+
+#: core/helpers/helper-misc.php:777
+msgid "Hawaiian"
+msgstr "Hawaiano"
+
+#: core/helpers/helper-misc.php:776
+msgid "Gujarati"
+msgstr "Guyaratí"
+
+#: core/helpers/helper-misc.php:775
+msgid "Guaraní"
+msgstr "Guaraní"
+
+#: core/helpers/helper-misc.php:774
+msgid "Greenlandic"
+msgstr "Groenlandés"
+
+#: core/helpers/helper-misc.php:773
+msgid "Greek"
+msgstr "Griego"
+
+#: core/helpers/helper-misc.php:772
+msgid "German"
+msgstr "Alemán"
+
+#: core/helpers/helper-misc.php:771
+msgid "Georgian"
+msgstr "Georgiano"
+
+#: core/helpers/helper-misc.php:770
+msgid "Galician"
+msgstr "Gallego"
+
+#: core/helpers/helper-misc.php:769
+msgid "Fulah"
+msgstr "Fula"
+
+#: core/helpers/helper-misc.php:768
+msgid "Friulian"
+msgstr "Friulano"
+
+#: core/helpers/helper-misc.php:767
+msgid "Frisian"
+msgstr "Frisón"
+
+#: core/helpers/helper-misc.php:766
+msgid "French"
+msgstr "Francés"
+
+#: core/helpers/helper-misc.php:764
+msgid "Faroese"
+msgstr "Faroés"
+
+#: core/helpers/helper-misc.php:763
+msgid "Estonian"
+msgstr "Estonio"
+
+#: core/helpers/helper-misc.php:762
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: core/helpers/helper-misc.php:761
+msgid "English"
+msgstr "Inglés"
+
+#: core/helpers/helper-misc.php:760
+msgid "Dzongkha"
+msgstr "Dzongkha"
+
+#: core/helpers/helper-misc.php:759
+msgid "Dutch"
+msgstr "Alemán"
+
+#: core/helpers/helper-misc.php:758
+msgid "Dhivehi"
+msgstr "Maldivo"
+
+#: core/helpers/helper-misc.php:757
+msgid "Danish"
+msgstr "Danés"
+
+#: core/helpers/helper-misc.php:756
+msgid "Czech"
+msgstr "Checoslovaco"
+
+#: core/helpers/helper-misc.php:755
+msgid "Croatian"
+msgstr "Croata"
+
+#: core/helpers/helper-misc.php:754
+msgid "Corsican"
+msgstr "Corso"
+
+#: core/helpers/helper-misc.php:753
+msgid "Chinese"
+msgstr "Chino"
+
+#: core/helpers/helper-misc.php:752
+msgid "Cebuano"
+msgstr "Cebuano"
+
+#: core/helpers/helper-misc.php:751
+msgid "Catalan"
+msgstr "Catalán"
+
+#: core/helpers/helper-misc.php:750
+msgid "Bulgarian"
+msgstr "Búlgaro"
+
+#: core/helpers/helper-misc.php:749
+msgid "Breton"
+msgstr "Breton"
+
+#: core/helpers/helper-misc.php:748
+msgid "Bosnian"
+msgstr "Bosnio"
+
+#: core/helpers/helper-misc.php:747
+msgid "Bengali"
+msgstr "Bengalí"
+
+#: core/helpers/helper-misc.php:746
+msgid "Belarusian"
+msgstr "Bielorruso"
+
+#: core/helpers/helper-misc.php:745
+msgid "Basque"
+msgstr "Vasco"
+
+#: core/helpers/helper-misc.php:744
+msgid "Bashkir"
+msgstr "Baskir"
+
+#: core/helpers/helper-misc.php:743
+msgid "Balochi Southern"
+msgstr "Baluchi del sur"
+
+#: core/helpers/helper-misc.php:742
+msgid "Azerbaijani"
+msgstr "Azerbaiyano"
+
+#: core/helpers/helper-misc.php:741
+msgid "Assamese"
+msgstr "Asamés"
+
+#: core/helpers/helper-misc.php:740
+msgid "Arpitan"
+msgstr "Arpitano"
+
+#: core/helpers/helper-misc.php:739
+msgid "Aromanian"
+msgstr "Arrumano"
+
+#: core/helpers/helper-misc.php:738
+msgid "Armenian"
+msgstr "Armenio"
+
+#: core/helpers/helper-misc.php:737
+msgid "Arabic"
+msgstr "Árabe"
+
+#: core/helpers/helper-misc.php:736
+msgid "Amharic"
+msgstr "Amárico"
+
+#: core/helpers/helper-misc.php:735
+msgid "Algerian Arabic"
+msgstr "Árabe argelino"
+
+#: core/helpers/helper-misc.php:734
+msgid "Albanian"
+msgstr "Albanés"
+
+#: core/helpers/helper-misc.php:733
+msgid "Akan"
+msgstr "Akan"
+
+#: core/helpers/helper-misc.php:732
+msgid "Afrikaans"
+msgstr "Afrikáans"
+
+#: core/classes/class-form-styles.php:808
+msgid "Checkmark"
+msgstr "Marca de verificación"
+
+#: core/templates/customize-form-parts-drawer.php:7
+msgid "Clear Results"
+msgstr "Vaciar los resultados"
+
+#: core/templates/customize-form-parts-drawer.php:38
+#: core/classes/class-form-setup.php:172
+#: inc/templates/customize-controls/email-parts-list-dummy.php:11
+#: inc/templates/customize-controls/checkbox_dummy.php:7
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: core/helpers/helper-misc.php:673
+msgid "Response #%s"
+msgstr "Respuesta #%s"
+
+#: core/helpers/helper-misc.php:1010 core/classes/class-happyforms-core.php:165
+#: core/classes/class-happyforms-core.php:166 core/classes/class-block.php:49
+#: core/classes/class-happyforms-widget.php:13
+#: core/classes/class-form-controller.php:68
+msgid "Forms"
+msgstr "Formularios"
+
+#: core/classes/class-form-styles.php:618
+msgid "Display"
+msgstr "Presentación"
+
+#: core/classes/class-form-setup.php:214
+msgid "Form HTML ID"
+msgstr "ID HTML del formulario"
+
+#: core/classes/class-form-styles.php:533
+msgid "Below form"
+msgstr "Debajo del formulario"
+
+#: core/classes/class-form-styles.php:532
+msgid "Above form"
+msgstr "Encima del formulario"
+
+#: inc/classes/class-happyforms.php:188
+msgid "Reply to your users and mark their submission as read in one click."
+msgstr "Responde a tus usuarios y marca su envío como leído con un solo clic."
+
+#: core/classes/class-form-styles.php:563
+#: core/classes/class-form-styles.php:883
+msgid "Padding"
+msgstr "Espaciado"
+
+#: core/classes/class-block.php:111
+msgid "Edit Form"
+msgstr "Editar formulario"
+
+#: core/classes/class-block.php:110
+msgid "HappyForms Settings"
+msgstr "Ajustes de HappyForms"
+
+#: core/classes/class-block.php:109
+msgid "Which form would you like to add here?"
+msgstr "¿Qué formulario te gustaría añadir aquí?"
+
+#: inc/classes/parts/class-part-rich-text-dummy.php:9
+msgid "For formatting text, code blocks, lists and more."
+msgstr "Para dar formato a textos, bloques de código, listas y más."
+
+#: inc/classes/parts/class-part-rich-text-dummy.php:8
+msgid "Text Editor"
+msgstr "Editor de texto"
+
+#: core/templates/parts/customize-checkbox.php:33
+#: core/templates/parts/customize-radio.php:33
+#: core/templates/parts/customize-select.php:37
+msgid "Type or paste your choices here, adding each on a new line."
+msgstr "Escribe o pega aquí tus opciones, añadiendo cada una en una nueva línea."
+
+#: core/templates/parts/customize-checkbox.php:44
+#: core/templates/parts/customize-radio.php:44
+#: core/templates/parts/customize-select.php:48
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: core/helpers/helper-form-templates.php:1302
+msgid "Wallis and Futuna"
+msgstr "Wallis y Futuna"
+
+#: core/helpers/helper-form-templates.php:1299
+msgid "Virgin Islands, U.S."
+msgstr "Islas Vírgenes de los Estados Unidos"
+
+#: core/helpers/helper-form-templates.php:1298
+msgid "Virgin Islands, British"
+msgstr "Islas Vírgenes Británicas"
+
+#: core/helpers/helper-form-templates.php:1281
+msgid "Timor-Leste"
+msgstr "Timor Oriental"
+
+#: core/helpers/helper-form-templates.php:1262
+msgid "Slovakia"
+msgstr "Eslovaquia"
+
+#: core/helpers/helper-form-templates.php:1259
+#: core/helpers/helper-form-templates.php:1274
+msgid "Saint Helena"
+msgstr "Isla Santa Elena"
+
+#: core/helpers/helper-form-templates.php:1250
+msgid "Serbia"
+msgstr "Serbia"
+
+#: core/helpers/helper-form-templates.php:1241
+msgid "Saint Pierre and Miquelon"
+msgstr "San Pedro y Miquelón"
+
+#: core/helpers/helper-form-templates.php:1201
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: core/helpers/helper-form-templates.php:1187
+msgid "Lao People's Democratic Republic"
+msgstr "Laos, República Popular Democrática de"
+
+#: core/helpers/helper-form-templates.php:1169
+msgid "Iran, Islamic Republic of"
+msgstr "Irán, República islámica de"
+
+#: core/helpers/helper-form-templates.php:1159
+msgid "Croatia"
+msgstr "Croacia"
+
+#: core/helpers/helper-form-templates.php:1090
+msgid "Saint Barthélemy"
+msgstr "San Bartolomé"
+
+#: core/helpers/helper-form-templates.php:1081
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia y Herzegovina"
+
+#: core/classes/class-form-styles.php:204
+msgid "Hidden"
+msgstr "Oculto"
+
+#: core/templates/customize-header-actions.php:7
+msgid "Saved"
+msgstr "Guardado"
+
+#: core/classes/class-form-messages.php:60
+msgid "(optional)"
+msgstr "(opcional)"
+
+#: core/classes/class-form-styles.php:233
+msgid "Tooltip"
+msgstr "Información emergente"
+
+#: core/classes/class-form-styles.php:232
+msgid "Standard"
+msgstr "Estándar"
+
+#: core/templates/parts/customize-number.php:74
+#: core/templates/parts/customize-email.php:49
+#: core/templates/parts/customize-single-line-text.php:48
+msgid "Suffix"
+msgstr "Sufijo"
+
+#: core/helpers/helper-misc.php:276
+msgid "Ivory Coast"
+msgstr "Costa de Marfil"
+
+#: core/classes/class-form-email.php:108 core/classes/class-form-email.php:142
+msgid "Email display name"
+msgstr "Nombre a mostrar en los correos electrónicos"
+
+#: inc/classes/parts/class-part-rating-dummy.php:9
+msgid "For collecting opinions using stars and emoji scales."
+msgstr "Para recoger opiniones mediante escalas de estrellas y emojis."
+
+#: core/classes/class-form-styles.php:903
+msgid "Make button a field of last input"
+msgstr "Hacer que el botón sea un campo de la última entrada"
+
+#: core/helpers/helper-misc.php:935
+#: core/templates/parts/customize-checkbox.php:76
+#: core/templates/parts/customize-checkbox.php:85
+#: core/templates/parts/customize-radio.php:71
+msgid "Auto"
+msgstr "Automático"
+
+#: core/helpers/helper-misc.php:933
+#: core/templates/parts/customize-checkbox.php:74
+#: core/templates/parts/customize-checkbox.php:84
+#: core/templates/parts/customize-radio.php:69
+msgid "Third"
+msgstr "Tercero"
+
+#: core/classes/class-form-styles.php:828
+msgid "Tables"
+msgstr "Tablas"
+
+#: core/helpers/helper-misc.php:765
+msgid "Finnish"
+msgstr "Finlandés"
+
+#: core/templates/customize-form-steps.php:3
+msgid "Build"
+msgstr "Maquetar"
+
+#: inc/classes/class-happyforms.php:156
+msgid "Let your users review their submission before confirming it."
+msgstr "Dejar que los usuarios revisen su envío antes de confirmarlo."
+
+#: core/classes/class-form-styles.php:769
+msgid "Items"
+msgstr "Elementos"
+
+#: core/classes/class-form-styles.php:763
+msgid "Dropdowns"
+msgstr "Listas desplegables"
+
+#: core/classes/class-form-email.php:154
+msgid "Email content"
+msgstr "Contenido del correo electrónico"
+
+#: core/classes/class-form-email.php:114 core/classes/class-form-email.php:148
+msgid "Email subject"
+msgstr "Asunto del correo electrónico"
+
+#: core/classes/class-form-styles.php:788
+msgid "Text focused"
+msgstr "Texto con foco"
+
+#: core/templates/parts/customize-multi-line-text.php:67
+msgid "Rows"
+msgstr "Filas"
+
+#: core/classes/class-form-styles.php:848
+msgid "Even row secondary"
+msgstr "Secundario de las filas pares"
+
+#: core/classes/class-form-styles.php:843
+msgid "Even row primary"
+msgstr "Principal de las filas pares"
+
+#: core/classes/class-form-styles.php:838
+msgid "Odd row secondary"
+msgstr "Secundario de las filas impares"
+
+#: core/classes/class-form-styles.php:833
+msgid "Odd row primary"
+msgstr "Principal de las filas impares"
+
+#: core/helpers/helper-form-templates.php:1024
+msgid "December"
+msgstr "Diciembre"
+
+#: core/helpers/helper-form-templates.php:1023
+msgid "November"
+msgstr "Noviembre"
+
+#: core/helpers/helper-form-templates.php:1022
+msgid "October"
+msgstr "Octubre"
+
+#: core/helpers/helper-form-templates.php:1021
+msgid "September"
+msgstr "Septiembre"
+
+#: core/helpers/helper-form-templates.php:1020
+msgid "August"
+msgstr "Agosto"
+
+#: core/helpers/helper-form-templates.php:1019
+msgid "July"
+msgstr "Julio"
+
+#: core/helpers/helper-form-templates.php:1018
+msgid "June"
+msgstr "Junio"
+
+#: core/helpers/helper-form-templates.php:1017
+msgid "May"
+msgstr "Mayo"
+
+#: core/helpers/helper-form-templates.php:1016
+msgid "April"
+msgstr "Abril"
+
+#: core/helpers/helper-form-templates.php:1015
+msgid "March"
+msgstr "Marzo"
+
+#: core/helpers/helper-form-templates.php:1014
+msgid "February"
+msgstr "Febrero"
+
+#: core/helpers/helper-form-templates.php:1013
+msgid "January"
+msgstr "Enero"
+
+#: inc/classes/parts/class-part-narrative-dummy.php:8
+msgid "Blanks"
+msgstr "En blanco"
+
+#: core/classes/class-form-email.php:47
+msgid "You received a new message"
+msgstr "Has recibido un nuevo mensaje"
+
+#: core/classes/class-form-styles.php:728
+msgid "Placeholder &amp; value alignment"
+msgstr "Alineación del texto de ejemplo y el valor"
+
+#: core/classes/class-form-styles.php:568
+msgid "Direction"
+msgstr "Dirección"
+
+#: core/classes/class-form-styles.php:54
+msgid "Right-to-left"
+msgstr "De derecha a izquierda"
+
+#: core/classes/class-form-styles.php:53
+msgid "Left-to-right"
+msgstr "De izquierda a derecha"
+
+#: inc/classes/class-happyforms.php:121
+msgid "Protect your form against bots using your Google ReCaptcha credentials."
+msgstr "Protege tu formulario contra bots mediante tus credenciales de Google ReCaptcha."
+
+#: core/templates/admin-form-modal.php:12
+msgid "Insert"
+msgstr "Insertar"
+
+#: core/templates/admin-form-modal.php:5
+msgid "Choose a form"
+msgstr "Elige un formulario"
+
+#: core/classes/class-wp-customize-form-manager.php:176
+msgid "All done!"
+msgstr "¡Todo listo!"
+
+#: core/classes/class-wp-customize-form-manager.php:170
+#: core/classes/class-wp-customize-form-manager.php:175
+msgid "Select a form in the Form dropdown."
+msgstr "Selecciona un formulario del desplegable de formularios."
+
+#: core/classes/class-wp-customize-form-manager.php:174
+msgid "Drag the Forms widget to your sidebar."
+msgstr "Arrastra el widget de formularios a tu barra lateral."
+
+#: core/classes/class-form-styles.php:823
+msgid "Rating star color on hover"
+msgstr "Color de las estrellas de valoración al pasar el cursor"
+
+#: core/classes/class-form-styles.php:818
+msgid "Rating star color"
+msgstr "Color de la estrella de valoración"
+
+#: core/classes/class-form-styles.php:748
+msgid "Value"
+msgstr "Valor"
+
+#: core/classes/class-form-styles.php:733
+msgid "Value font size"
+msgstr "Tamaño de fuente del valor"
+
+#: core/classes/class-form-styles.php:678
+#: core/classes/class-form-styles.php:773
+#: core/classes/class-form-styles.php:798
+#: core/classes/class-form-styles.php:913
+msgid "Background"
+msgstr "Fondo"
+
+#: core/classes/class-form-styles.php:648
+#: core/classes/class-form-styles.php:873
+msgid "Border radius"
+msgstr "Redondez de los bordes"
+
+#: core/classes/class-form-styles.php:643
+msgid "Border location"
+msgstr "Ubicación del borde"
+
+#: core/classes/class-form-styles.php:638
+#: core/classes/class-form-styles.php:668
+#: core/classes/class-form-styles.php:868
+#: core/classes/class-form-styles.php:923
+msgid "Border"
+msgstr "Borde"
+
+#: core/classes/class-form-styles.php:628
+#: core/classes/class-form-styles.php:888
+msgid "Font size"
+msgstr "Tamaño de la fuente"
+
+#: core/classes/class-form-messages.php:102
+msgid "Errors"
+msgstr "Errores"
+
+#: core/classes/class-form-styles.php:583
+msgid "Primary"
+msgstr "Principal"
+
+#: core/classes/class-form-styles.php:579
+#: core/classes/class-form-styles.php:664
+#: core/classes/class-form-styles.php:739
+#: core/classes/class-form-styles.php:909
+msgid "Colors"
+msgstr "Colores"
+
+#: core/classes/class-form-styles.php:553
+msgid "General"
+msgstr "General"
+
+#: core/classes/class-form-styles.php:100
+#: core/classes/class-form-styles.php:174
+#: core/classes/class-form-styles.php:214
+#: core/classes/class-form-styles.php:243
+#: core/classes/class-form-styles.php:320
+msgid "Right"
+msgstr "Derecha"
+
+#: core/classes/class-form-styles.php:99 core/classes/class-form-styles.php:173
+#: core/classes/class-form-styles.php:213
+#: core/classes/class-form-styles.php:242
+#: core/classes/class-form-styles.php:319
+msgid "Center"
+msgstr "Centro"
+
+#: core/classes/class-form-styles.php:281
+msgid "Full width"
+msgstr "Ancho completo"
+
+#: core/classes/class-form-styles.php:75 core/classes/class-form-styles.php:148
+#: core/classes/class-form-styles.php:158
+#: core/classes/class-form-styles.php:291
+msgid "Wide"
+msgstr "Ancho"
+
+#: core/classes/class-form-styles.php:73 core/classes/class-form-styles.php:147
+#: core/classes/class-form-styles.php:157
+#: core/classes/class-form-styles.php:280
+#: core/classes/class-form-styles.php:290
+msgid "Default"
+msgstr "Por defecto"
+
+#: core/classes/class-form-styles.php:74 core/classes/class-form-styles.php:146
+#: core/classes/class-form-styles.php:156
+#: core/classes/class-form-styles.php:289
+msgid "Narrow"
+msgstr "Estrecho"
+
+#: core/classes/class-form-styles.php:138
+#: core/classes/class-form-styles.php:272
+msgid "Pill"
+msgstr "Cápsula"
+
+#: core/classes/class-form-styles.php:137
+#: core/classes/class-form-styles.php:271
+msgid "Round"
+msgstr "Redondo"
+
+#: core/classes/class-form-styles.php:136
+#: core/classes/class-form-styles.php:270
+msgid "Square"
+msgstr "Cuadrado"
+
+#: core/classes/class-form-styles.php:128
+msgid "Bottom only"
+msgstr "Solo en la parte inferior"
+
+#: core/classes/class-form-styles.php:127
+msgid "All sides"
+msgstr "Todos los lados"
+
+#: core/templates/parts/customize-number.php:15
+#: core/templates/parts/customize-checkbox.php:15
+#: core/templates/parts/customize-email.php:15
+#: core/templates/parts/customize-radio.php:15
+#: core/templates/parts/customize-single-line-text.php:15
+#: core/templates/parts/customize-multi-line-text.php:15
+#: core/templates/parts/customize-select.php:15
+#: core/classes/class-form-styles.php:90 core/classes/class-form-styles.php:119
+#: core/classes/class-form-styles.php:262
+msgid "Hide"
+msgstr "Ocultar"
+
+#: core/classes/class-form-styles.php:193
+#: core/classes/class-form-styles.php:310
+msgid "Bold"
+msgstr "Negrita"
+
+#: core/classes/class-form-styles.php:192
+#: core/classes/class-form-styles.php:309
+msgid "Normal"
+msgstr "Normal"
+
+#: core/templates/customize-controls/style/divider.php:13
+msgid "You are customizing"
+msgstr "Estás personalizando"
+
+#: core/templates/customize-controls/style/divider.php:10
+msgid "Back"
+msgstr "Atrás"
+
+#: core/helpers/helper-misc.php:462 core/helpers/helper-form-templates.php:1309
+msgid "Zimbabwe"
+msgstr "Zimbabue"
+
+#: core/helpers/helper-misc.php:461 core/helpers/helper-form-templates.php:1308
+msgid "Zambia"
+msgstr "Zambia"
+
+#: core/helpers/helper-misc.php:460
+msgid "Yugoslavia"
+msgstr "Yugoslavia"
+
+#: core/helpers/helper-misc.php:459 core/helpers/helper-form-templates.php:1305
+msgid "Yemen"
+msgstr "Yemen"
+
+#: core/helpers/helper-misc.php:458 core/helpers/helper-form-templates.php:1129
+msgid "Western Sahara"
+msgstr "Sahara Occidental"
+
+#: core/helpers/helper-misc.php:457
+msgid "Wallis and Futuna Islands"
+msgstr "Wallis y Futuna"
+
+#: core/helpers/helper-misc.php:456
+msgid "Virgin Islands (U.S.)"
+msgstr "Islas Vírgenes de los Estados Unidos"
+
+#: core/helpers/helper-misc.php:455
+msgid "Virgin Islands (British)"
+msgstr "Islas Vírgenes Británicas"
+
+#: core/helpers/helper-misc.php:454 core/helpers/helper-form-templates.php:1300
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: core/helpers/helper-misc.php:453 core/helpers/helper-form-templates.php:1297
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: core/helpers/helper-misc.php:452 core/helpers/helper-form-templates.php:1301
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: core/helpers/helper-misc.php:451 core/helpers/helper-form-templates.php:1294
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+#: core/helpers/helper-misc.php:450 core/helpers/helper-form-templates.php:1293
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: core/helpers/helper-misc.php:449
+msgid "United States Minor Outlying Islands"
+msgstr "Islas Ultramarinas Menores de Estados Unidos"
+
+#: core/helpers/helper-misc.php:448
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: core/helpers/helper-misc.php:447 core/helpers/helper-form-templates.php:1140
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: core/helpers/helper-misc.php:446 core/helpers/helper-form-templates.php:1067
+msgid "United Arab Emirates"
+msgstr "Emiratos Árabes Unidos"
+
+#: core/helpers/helper-misc.php:445 core/helpers/helper-form-templates.php:1290
+msgid "Ukraine"
+msgstr "Ucrania"
+
+#: core/helpers/helper-misc.php:444 core/helpers/helper-form-templates.php:1291
+msgid "Uganda"
+msgstr "Uganda"
+
+#: core/helpers/helper-misc.php:443 core/helpers/helper-form-templates.php:1287
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: core/helpers/helper-misc.php:442 core/helpers/helper-form-templates.php:1275
+msgid "Turks and Caicos Islands"
+msgstr "Islas Turcas y Caicos"
+
+#: core/helpers/helper-misc.php:441 core/helpers/helper-form-templates.php:1282
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+#: core/helpers/helper-misc.php:440 core/helpers/helper-form-templates.php:1285
+msgid "Turkey"
+msgstr "Turquía"
+
+#: core/helpers/helper-misc.php:439 core/helpers/helper-form-templates.php:1283
+msgid "Tunisia"
+msgstr "Túnez"
+
+#: core/helpers/helper-misc.php:438 core/helpers/helper-form-templates.php:1286
+msgid "Trinidad and Tobago"
+msgstr "Trinidad y Tobago"
+
+#: core/helpers/helper-misc.php:437 core/helpers/helper-form-templates.php:1284
+msgid "Tonga"
+msgstr "Tonga"
+
+#: core/helpers/helper-misc.php:436 core/helpers/helper-form-templates.php:1280
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: core/helpers/helper-misc.php:435 core/helpers/helper-form-templates.php:1277
+msgid "Togo"
+msgstr "Togo"
+
+#: core/helpers/helper-misc.php:434 core/helpers/helper-form-templates.php:1278
+msgid "Thailand"
+msgstr "Tailandia"
+
+#: core/helpers/helper-misc.php:433 core/helpers/helper-form-templates.php:1289
+msgid "Tanzania, United Republic of"
+msgstr "Tanzania"
+
+#: core/helpers/helper-misc.php:432 core/helpers/helper-form-templates.php:1279
+msgid "Tajikistan"
+msgstr "Tayikistán"
+
+#: core/helpers/helper-misc.php:431
+msgid "Taiwan, Province of China"
+msgstr "Taiwan"
+
+#: core/helpers/helper-misc.php:430 core/helpers/helper-form-templates.php:1272
+msgid "Syrian Arab Republic"
+msgstr "Siria"
+
+#: core/helpers/helper-misc.php:429 core/helpers/helper-form-templates.php:1106
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: core/helpers/helper-misc.php:428 core/helpers/helper-form-templates.php:1257
+msgid "Sweden"
+msgstr "Suecia"
+
+#: core/helpers/helper-misc.php:427
+msgid "Swaziland"
+msgstr "Suazilandia"
+
+#: core/helpers/helper-misc.php:426
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Islas Svalbard y Jan Mayen"
+
+#: core/helpers/helper-misc.php:425 core/helpers/helper-form-templates.php:1267
+msgid "Suriname"
+msgstr "Surinam"
+
+#: core/helpers/helper-misc.php:424 core/helpers/helper-form-templates.php:1256
+msgid "Sudan"
+msgstr "Sudán"
+
+#: core/helpers/helper-misc.php:423
+msgid "St. Pierre and Miquelon"
+msgstr "San Pedro y Miquelón"
+
+#: core/helpers/helper-misc.php:422
+msgid "St. Helena"
+msgstr "Isla Santa Elena"
+
+#: core/helpers/helper-misc.php:421 core/helpers/helper-form-templates.php:1191
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: core/helpers/helper-misc.php:420 core/helpers/helper-form-templates.php:1131
+msgid "Spain"
+msgstr "España"
+
+#: core/helpers/helper-misc.php:419
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Islas Georgia del Sur y Sandwich del Sur"
+
+#: core/helpers/helper-misc.php:418 core/helpers/helper-form-templates.php:1307
+msgid "South Africa"
+msgstr "Sudáfrica"
+
+#: core/helpers/helper-misc.php:417 core/helpers/helper-form-templates.php:1266
+msgid "Somalia"
+msgstr "Somalia"
+
+#: core/helpers/helper-misc.php:416 core/helpers/helper-form-templates.php:1254
+msgid "Solomon Islands"
+msgstr "Islas Salomón"
+
+#: core/helpers/helper-misc.php:415 core/helpers/helper-form-templates.php:1260
+msgid "Slovenia"
+msgstr "Eslovenia"
+
+#: core/helpers/helper-misc.php:414
+msgid "Slovakia (Slovak Republic)"
+msgstr "Eslovaquia"
+
+#: core/helpers/helper-misc.php:413 core/helpers/helper-form-templates.php:1258
+msgid "Singapore"
+msgstr "Singapur"
+
+#: core/helpers/helper-misc.php:412 core/helpers/helper-form-templates.php:1263
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+#: core/helpers/helper-misc.php:411 core/helpers/helper-form-templates.php:1255
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: core/helpers/helper-misc.php:410 core/helpers/helper-form-templates.php:1265
+msgid "Senegal"
+msgstr "Senegal"
+
+#: core/helpers/helper-misc.php:409 core/helpers/helper-form-templates.php:1253
+msgid "Saudi Arabia"
+msgstr "Arabia Saudita"
+
+#: core/helpers/helper-misc.php:408 core/helpers/helper-form-templates.php:1269
+msgid "Sao Tome and Principe"
+msgstr "Santo Tomé y Príncipe"
+
+#: core/helpers/helper-misc.php:407 core/helpers/helper-form-templates.php:1264
+msgid "San Marino"
+msgstr "San Marino"
+
+#: core/helpers/helper-misc.php:406 core/helpers/helper-form-templates.php:1303
+msgid "Samoa"
+msgstr "Samoa"
+
+#: core/helpers/helper-misc.php:405 core/helpers/helper-form-templates.php:1296
+msgid "Saint Vincent and the Grenadines"
+msgstr "San Vicente y las Granadinas"
+
+#: core/helpers/helper-misc.php:404 core/helpers/helper-form-templates.php:1189
+msgid "Saint Lucia"
+msgstr "Santa Lucía"
+
+#: core/helpers/helper-misc.php:403 core/helpers/helper-form-templates.php:1181
+msgid "Saint Kitts and Nevis"
+msgstr "San Cristóbal y Nieves"
+
+#: core/helpers/helper-misc.php:402 core/helpers/helper-form-templates.php:1252
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: core/helpers/helper-misc.php:401 core/helpers/helper-form-templates.php:1251
+msgid "Russian Federation"
+msgstr "Federación Rusa"
+
+#: core/helpers/helper-misc.php:400 core/helpers/helper-form-templates.php:1249
+msgid "Romania"
+msgstr "Rumania"
+
+#: core/helpers/helper-misc.php:399 core/helpers/helper-form-templates.php:1248
+msgid "Reunion"
+msgstr "Reunión"
+
+#: core/helpers/helper-misc.php:398 core/helpers/helper-form-templates.php:1247
+msgid "Qatar"
+msgstr "Catar"
+
+#: core/helpers/helper-misc.php:397 core/helpers/helper-form-templates.php:1242
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: core/helpers/helper-misc.php:396 core/helpers/helper-form-templates.php:1244
+msgid "Portugal"
+msgstr "Portugal"
+
+#: core/helpers/helper-misc.php:395 core/helpers/helper-form-templates.php:1240
+msgid "Poland"
+msgstr "Polonia"
+
+#: core/helpers/helper-misc.php:394
+msgid "Pitcairn"
+msgstr "Islas Pitcairn"
+
+#: core/helpers/helper-misc.php:393 core/helpers/helper-form-templates.php:1238
+msgid "Philippines"
+msgstr "Filipinas"
+
+#: core/helpers/helper-misc.php:392 core/helpers/helper-form-templates.php:1235
+msgid "Peru"
+msgstr "Perú"
+
+#: core/helpers/helper-misc.php:391 core/helpers/helper-form-templates.php:1246
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: core/helpers/helper-misc.php:390 core/helpers/helper-form-templates.php:1237
+msgid "Papua New Guinea"
+msgstr "Papúa Nueva Guinea"
+
+#: core/helpers/helper-misc.php:389 core/helpers/helper-form-templates.php:1234
+msgid "Panama"
+msgstr "Panamá"
+
+#: core/helpers/helper-misc.php:388 core/helpers/helper-form-templates.php:1245
+msgid "Palau"
+msgstr "Palau"
+
+#: core/helpers/helper-misc.php:387 core/helpers/helper-form-templates.php:1239
+msgid "Pakistan"
+msgstr "Pakistán"
+
+#: core/helpers/helper-misc.php:386 core/helpers/helper-form-templates.php:1233
+msgid "Oman"
+msgstr "Omán"
+
+#: core/helpers/helper-misc.php:385 core/helpers/helper-form-templates.php:1228
+msgid "Norway"
+msgstr "Noruega"
+
+#: core/helpers/helper-misc.php:384 core/helpers/helper-form-templates.php:1210
+msgid "Northern Mariana Islands"
+msgstr "Islas Marianas del Norte"
+
+#: core/helpers/helper-misc.php:383 core/helpers/helper-form-templates.php:1224
+msgid "Norfolk Island"
+msgstr "Isla Norfolk"
+
+#: core/helpers/helper-misc.php:382 core/helpers/helper-form-templates.php:1231
+msgid "Niue"
+msgstr "Niue"
+
+#: core/helpers/helper-misc.php:381 core/helpers/helper-form-templates.php:1225
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: core/helpers/helper-misc.php:380 core/helpers/helper-form-templates.php:1223
+msgid "Niger"
+msgstr "Níger"
+
+#: core/helpers/helper-misc.php:379 core/helpers/helper-form-templates.php:1226
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: core/helpers/helper-misc.php:378 core/helpers/helper-form-templates.php:1232
+msgid "New Zealand"
+msgstr "Nueva Zelanda"
+
+#: core/helpers/helper-misc.php:377 core/helpers/helper-form-templates.php:1222
+msgid "New Caledonia"
+msgstr "Nueva Caledonia"
+
+#: core/helpers/helper-misc.php:376
+msgid "Netherlands Antilles"
+msgstr "Antillas Holandesas"
+
+#: core/helpers/helper-misc.php:375 core/helpers/helper-form-templates.php:1227
+msgid "Netherlands"
+msgstr "Países Bajos"
+
+#: core/helpers/helper-misc.php:374 core/helpers/helper-form-templates.php:1229
+msgid "Nepal"
+msgstr "Nepal"
+
+#: core/helpers/helper-misc.php:373 core/helpers/helper-form-templates.php:1230
+msgid "Nauru"
+msgstr "Nauru"
+
+#: core/helpers/helper-misc.php:372 core/helpers/helper-form-templates.php:1221
+msgid "Namibia"
+msgstr "Namibia"
+
+#: core/helpers/helper-misc.php:371 core/helpers/helper-form-templates.php:1207
+msgid "Myanmar"
+msgstr "Birmania"
+
+#: core/helpers/helper-misc.php:370 core/helpers/helper-form-templates.php:1220
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: core/helpers/helper-misc.php:369 core/helpers/helper-form-templates.php:1198
+msgid "Morocco"
+msgstr "Marruecos"
+
+#: core/helpers/helper-misc.php:368 core/helpers/helper-form-templates.php:1213
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: core/helpers/helper-misc.php:367 core/helpers/helper-form-templates.php:1208
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: core/helpers/helper-misc.php:366 core/helpers/helper-form-templates.php:1199
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: core/helpers/helper-misc.php:365 core/helpers/helper-form-templates.php:1200
+msgid "Moldova, Republic of"
+msgstr "Moldavia"
+
+#: core/helpers/helper-misc.php:364 core/helpers/helper-form-templates.php:1136
+msgid "Micronesia, Federated States of"
+msgstr "Micronesia"
+
+#: core/helpers/helper-misc.php:363 core/helpers/helper-form-templates.php:1218
+msgid "Mexico"
+msgstr "México"
+
+#: core/helpers/helper-misc.php:362 core/helpers/helper-form-templates.php:1306
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: core/helpers/helper-misc.php:361 core/helpers/helper-form-templates.php:1215
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#: core/helpers/helper-misc.php:360 core/helpers/helper-form-templates.php:1212
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: core/helpers/helper-misc.php:359 core/helpers/helper-form-templates.php:1211
+msgid "Martinique"
+msgstr "Martinica"
+
+#: core/helpers/helper-misc.php:358 core/helpers/helper-form-templates.php:1204
+msgid "Marshall Islands"
+msgstr "Islas Marshall"
+
+#: core/helpers/helper-misc.php:357 core/helpers/helper-form-templates.php:1214
+msgid "Malta"
+msgstr "Malta"
+
+#: core/helpers/helper-misc.php:356 core/helpers/helper-form-templates.php:1206
+msgid "Mali"
+msgstr "Malí"
+
+#: core/helpers/helper-misc.php:355 core/helpers/helper-form-templates.php:1216
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: core/helpers/helper-misc.php:354 core/helpers/helper-form-templates.php:1219
+msgid "Malaysia"
+msgstr "Malasia"
+
+#: core/helpers/helper-misc.php:353 core/helpers/helper-form-templates.php:1217
+msgid "Malawi"
+msgstr "Malaui"
+
+#: core/helpers/helper-misc.php:352 core/helpers/helper-form-templates.php:1203
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: core/helpers/helper-misc.php:351
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr "República de Macedonia"
+
+#: core/helpers/helper-misc.php:350
+msgid "Macau"
+msgstr "Macao"
+
+#: core/helpers/helper-misc.php:349 core/helpers/helper-form-templates.php:1195
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: core/helpers/helper-misc.php:348 core/helpers/helper-form-templates.php:1194
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: core/helpers/helper-misc.php:347 core/helpers/helper-form-templates.php:1190
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: core/helpers/helper-misc.php:346
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libia"
+
+#: core/helpers/helper-misc.php:345 core/helpers/helper-form-templates.php:1192
+msgid "Liberia"
+msgstr "Liberia"
+
+#: core/helpers/helper-misc.php:344 core/helpers/helper-form-templates.php:1193
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: core/helpers/helper-misc.php:343 core/helpers/helper-form-templates.php:1188
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: core/helpers/helper-misc.php:342 core/helpers/helper-form-templates.php:1196
+msgid "Latvia"
+msgstr "Letonia"
+
+#: core/helpers/helper-misc.php:341
+msgid "Lao, People's Democratic Republic"
+msgstr "República Popular Democrática de Laos"
+
+#: core/helpers/helper-misc.php:340 core/helpers/helper-form-templates.php:1177
+msgid "Kyrgyzstan"
+msgstr "Kirguistán"
+
+#: core/helpers/helper-misc.php:339 core/helpers/helper-form-templates.php:1184
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: core/helpers/helper-misc.php:338
+msgid "Korea, Republic of"
+msgstr "República de Corea"
+
+#: core/helpers/helper-misc.php:337
+msgid "Korea, Democratic People's Republic of"
+msgstr "República Democrática de Korea"
+
+#: core/helpers/helper-misc.php:336 core/helpers/helper-form-templates.php:1179
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: core/helpers/helper-misc.php:335 core/helpers/helper-form-templates.php:1176
+msgid "Kenya"
+msgstr "Kenia"
+
+#: core/helpers/helper-misc.php:334 core/helpers/helper-form-templates.php:1186
+msgid "Kazakhstan"
+msgstr "Kazajistán"
+
+#: core/helpers/helper-misc.php:333 core/helpers/helper-form-templates.php:1174
+msgid "Jordan"
+msgstr "Jordania"
+
+#: core/helpers/helper-misc.php:332 core/helpers/helper-form-templates.php:1175
+msgid "Japan"
+msgstr "Japón"
+
+#: core/helpers/helper-misc.php:331 core/helpers/helper-form-templates.php:1173
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: core/helpers/helper-misc.php:330 core/helpers/helper-form-templates.php:1171
+msgid "Italy"
+msgstr "Italia"
+
+#: core/helpers/helper-misc.php:329 core/helpers/helper-form-templates.php:1164
+msgid "Israel"
+msgstr "Israel"
+
+#: core/helpers/helper-misc.php:328 core/helpers/helper-form-templates.php:1163
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: core/helpers/helper-misc.php:327 core/helpers/helper-form-templates.php:1168
+msgid "Iraq"
+msgstr "Irak"
+
+#: core/helpers/helper-misc.php:326
+msgid "Iran (Islamic Republic of)"
+msgstr "Irán (República islámica de)"
+
+#: core/helpers/helper-misc.php:325 core/helpers/helper-form-templates.php:1162
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: core/helpers/helper-misc.php:324 core/helpers/helper-form-templates.php:1166
+msgid "India"
+msgstr "India"
+
+#: core/helpers/helper-misc.php:323 core/helpers/helper-form-templates.php:1170
+msgid "Iceland"
+msgstr "Islandia"
+
+#: core/helpers/helper-misc.php:322 core/helpers/helper-form-templates.php:1161
+msgid "Hungary"
+msgstr "Hungría"
+
+#: core/helpers/helper-misc.php:321 core/helpers/helper-form-templates.php:1157
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: core/helpers/helper-misc.php:320 core/helpers/helper-form-templates.php:1158
+msgid "Honduras"
+msgstr "Honduras"
+
+#: core/helpers/helper-misc.php:319 core/helpers/helper-form-templates.php:1295
+msgid "Holy See (Vatican City State)"
+msgstr "Santa Sede (Estado Ciudad del Vaticano)"
+
+#: core/helpers/helper-misc.php:318
+msgid "Heard and Mc Donald Islands"
+msgstr "Islas Heard y McDonald"
+
+#: core/helpers/helper-misc.php:317 core/helpers/helper-form-templates.php:1160
+msgid "Haiti"
+msgstr "Haití"
+
+#: core/helpers/helper-misc.php:316 core/helpers/helper-form-templates.php:1156
+msgid "Guyana"
+msgstr "Guyana"
+
+#: core/helpers/helper-misc.php:315 core/helpers/helper-form-templates.php:1155
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bisáu"
+
+#: core/helpers/helper-misc.php:314 core/helpers/helper-form-templates.php:1149
+msgid "Guinea"
+msgstr "Guinea"
+
+#: core/helpers/helper-misc.php:313 core/helpers/helper-form-templates.php:1153
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: core/helpers/helper-misc.php:312 core/helpers/helper-form-templates.php:1154
+msgid "Guam"
+msgstr "Guam"
+
+#: core/helpers/helper-misc.php:311 core/helpers/helper-form-templates.php:1150
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: core/helpers/helper-misc.php:310 core/helpers/helper-form-templates.php:1141
+msgid "Grenada"
+msgstr "Granada"
+
+#: core/helpers/helper-misc.php:309 core/helpers/helper-form-templates.php:1147
+msgid "Greenland"
+msgstr "Groenlandia"
+
+#: core/helpers/helper-misc.php:308 core/helpers/helper-form-templates.php:1152
+msgid "Greece"
+msgstr "Grecia"
+
+#: core/helpers/helper-misc.php:307 core/helpers/helper-form-templates.php:1146
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: core/helpers/helper-misc.php:306 core/helpers/helper-form-templates.php:1145
+msgid "Ghana"
+msgstr "Ghana"
+
+#: core/helpers/helper-misc.php:305 core/helpers/helper-form-templates.php:1120
+msgid "Germany"
+msgstr "Alemania"
+
+#: core/helpers/helper-misc.php:304 core/helpers/helper-form-templates.php:1142
+msgid "Georgia"
+msgstr "Georgia"
+
+#: core/helpers/helper-misc.php:303 core/helpers/helper-form-templates.php:1148
+msgid "Gambia"
+msgstr "Gambia"
+
+#: core/helpers/helper-misc.php:302 core/helpers/helper-form-templates.php:1139
+msgid "Gabon"
+msgstr "Gabón"
+
+#: core/helpers/helper-misc.php:301
+msgid "French Southern Territories"
+msgstr "Territorios Australes Franceses"
+
+#: core/helpers/helper-misc.php:300 core/helpers/helper-form-templates.php:1236
+msgid "French Polynesia"
+msgstr "Polinesia Francesa"
+
+#: core/helpers/helper-misc.php:299 core/helpers/helper-form-templates.php:1143
+msgid "French Guiana"
+msgstr "Guayana Francesa"
+
+#: core/helpers/helper-misc.php:298
+msgid "France Metropolitan"
+msgstr "Francia Metropolitana"
+
+#: core/helpers/helper-misc.php:297 core/helpers/helper-form-templates.php:1138
+msgid "France"
+msgstr "Francia"
+
+#: core/helpers/helper-misc.php:296 core/helpers/helper-form-templates.php:1133
+msgid "Finland"
+msgstr "Finlandia"
+
+#: core/helpers/helper-misc.php:295 core/helpers/helper-form-templates.php:1134
+msgid "Fiji"
+msgstr "Fiyi"
+
+#: core/helpers/helper-misc.php:294 core/helpers/helper-form-templates.php:1137
+msgid "Faroe Islands"
+msgstr "Islas Feroe"
+
+#: core/helpers/helper-misc.php:293 core/helpers/helper-form-templates.php:1135
+msgid "Falkland Islands (Malvinas)"
+msgstr "Islas Malvinas"
+
+#: core/helpers/helper-misc.php:292 core/helpers/helper-form-templates.php:1132
+msgid "Ethiopia"
+msgstr "Etiopía"
+
+#: core/helpers/helper-misc.php:291 core/helpers/helper-form-templates.php:1127
+msgid "Estonia"
+msgstr "Estonia"
+
+#: core/helpers/helper-misc.php:290 core/helpers/helper-form-templates.php:1130
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: core/helpers/helper-misc.php:289 core/helpers/helper-form-templates.php:1151
+msgid "Equatorial Guinea"
+msgstr "Guinea Ecuatorial"
+
+#: core/helpers/helper-misc.php:288 core/helpers/helper-form-templates.php:1270
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: core/helpers/helper-misc.php:287 core/helpers/helper-form-templates.php:1128
+msgid "Egypt"
+msgstr "Egipto"
+
+#: core/helpers/helper-misc.php:286 core/helpers/helper-form-templates.php:1126
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: core/helpers/helper-misc.php:285
+msgid "East Timor"
+msgstr "Timor Oriental"
+
+#: core/helpers/helper-misc.php:284 core/helpers/helper-form-templates.php:1124
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: core/helpers/helper-misc.php:283 core/helpers/helper-form-templates.php:1123
+msgid "Dominica"
+msgstr "Dominica"
+
+#: core/helpers/helper-misc.php:282 core/helpers/helper-form-templates.php:1121
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: core/helpers/helper-misc.php:281 core/helpers/helper-form-templates.php:1122
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: core/helpers/helper-misc.php:280 core/helpers/helper-form-templates.php:1119
+msgid "Czech Republic"
+msgstr "República Checa"
+
+#: core/helpers/helper-misc.php:279 core/helpers/helper-form-templates.php:1118
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: core/helpers/helper-misc.php:278 core/helpers/helper-form-templates.php:1114
+msgid "Cuba"
+msgstr "Cuba"
+
+#: core/helpers/helper-misc.php:277
+msgid "Croatia (Hrvatska)"
+msgstr "Croacia"
+
+#: core/helpers/helper-misc.php:275 core/helpers/helper-form-templates.php:1113
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: core/helpers/helper-misc.php:274 core/helpers/helper-form-templates.php:1108
+msgid "Cook Islands"
+msgstr "Islas Cook"
+
+#: core/helpers/helper-misc.php:273 core/helpers/helper-form-templates.php:1103
+msgid "Congo, the Democratic Republic of the"
+msgstr "República Democrática del Congo"
+
+#: core/helpers/helper-misc.php:272 core/helpers/helper-form-templates.php:1105
+msgid "Congo"
+msgstr "Congo"
+
+#: core/helpers/helper-misc.php:271 core/helpers/helper-form-templates.php:1180
+msgid "Comoros"
+msgstr "Comoras"
+
+#: core/helpers/helper-misc.php:270 core/helpers/helper-form-templates.php:1112
+msgid "Colombia"
+msgstr "Colombia"
+
+#: core/helpers/helper-misc.php:269 core/helpers/helper-form-templates.php:1102
+msgid "Cocos (Keeling) Islands"
+msgstr "Islas Cocos"
+
+#: core/helpers/helper-misc.php:268 core/helpers/helper-form-templates.php:1117
+msgid "Christmas Island"
+msgstr "Isla de Navidad"
+
+#: core/helpers/helper-misc.php:267 core/helpers/helper-form-templates.php:1111
+msgid "China"
+msgstr "China"
+
+#: core/helpers/helper-misc.php:266 core/helpers/helper-form-templates.php:1109
+msgid "Chile"
+msgstr "Chile"
+
+#: core/helpers/helper-misc.php:265 core/helpers/helper-form-templates.php:1276
+msgid "Chad"
+msgstr "Chad"
+
+#: core/helpers/helper-misc.php:264 core/helpers/helper-form-templates.php:1104
+msgid "Central African Republic"
+msgstr "República Centroafricana"
+
+#: core/helpers/helper-misc.php:263 core/helpers/helper-form-templates.php:1185
+msgid "Cayman Islands"
+msgstr "Islas Caimán"
+
+#: core/helpers/helper-misc.php:262 core/helpers/helper-form-templates.php:1115
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: core/helpers/helper-misc.php:261 core/helpers/helper-form-templates.php:1101
+msgid "Canada"
+msgstr "Canadá"
+
+#: core/helpers/helper-misc.php:260 core/helpers/helper-form-templates.php:1110
+msgid "Cameroon"
+msgstr "Camerún"
+
+#: core/helpers/helper-misc.php:259 core/helpers/helper-form-templates.php:1178
+msgid "Cambodia"
+msgstr "Camboya"
+
+#: core/helpers/helper-misc.php:258 core/helpers/helper-form-templates.php:1088
+msgid "Burundi"
+msgstr "Burundi"
+
+#: core/helpers/helper-misc.php:257 core/helpers/helper-form-templates.php:1085
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: core/helpers/helper-misc.php:256 core/helpers/helper-form-templates.php:1086
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: core/helpers/helper-misc.php:255 core/helpers/helper-form-templates.php:1092
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: core/helpers/helper-misc.php:254 core/helpers/helper-form-templates.php:1167
+msgid "British Indian Ocean Territory"
+msgstr "Territorio Británico del Océano Índico"
+
+#: core/helpers/helper-misc.php:253 core/helpers/helper-form-templates.php:1095
+msgid "Brazil"
+msgstr "Brasil"
+
+#: core/helpers/helper-misc.php:252
+msgid "Bouvet Island"
+msgstr "Isla Bouvet"
+
+#: core/helpers/helper-misc.php:251 core/helpers/helper-form-templates.php:1098
+msgid "Botswana"
+msgstr "Botswana"
+
+#: core/helpers/helper-misc.php:250
+msgid "Bosnia and Herzegowina"
+msgstr "Bosnia y Herzegowina"
+
+#: core/helpers/helper-misc.php:249 core/helpers/helper-form-templates.php:1093
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: core/helpers/helper-misc.php:248 core/helpers/helper-form-templates.php:1097
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: core/helpers/helper-misc.php:247 core/helpers/helper-form-templates.php:1091
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: core/helpers/helper-misc.php:246 core/helpers/helper-form-templates.php:1089
+msgid "Benin"
+msgstr "Benin"
+
+#: core/helpers/helper-misc.php:245 core/helpers/helper-form-templates.php:1100
+msgid "Belize"
+msgstr "Belize"
+
+#: core/helpers/helper-misc.php:244 core/helpers/helper-form-templates.php:1084
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: core/helpers/helper-misc.php:243 core/helpers/helper-form-templates.php:1099
+msgid "Belarus"
+msgstr "Bielorrusia"
+
+#: core/helpers/helper-misc.php:242 core/helpers/helper-form-templates.php:1082
+msgid "Barbados"
+msgstr "Barbados"
+
+#: core/helpers/helper-misc.php:241 core/helpers/helper-form-templates.php:1083
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: core/helpers/helper-misc.php:240 core/helpers/helper-form-templates.php:1087
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: core/helpers/helper-misc.php:239 core/helpers/helper-form-templates.php:1096
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: core/helpers/helper-misc.php:238 core/helpers/helper-form-templates.php:1080
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: core/helpers/helper-misc.php:237 core/helpers/helper-form-templates.php:1076
+msgid "Austria"
+msgstr "Austria"
+
+#: core/helpers/helper-misc.php:236 core/helpers/helper-form-templates.php:1077
+msgid "Australia"
+msgstr "Australia"
+
+#: core/helpers/helper-misc.php:235 core/helpers/helper-form-templates.php:1078
+msgid "Aruba"
+msgstr "Aruba"
+
+#: core/helpers/helper-misc.php:234 core/helpers/helper-form-templates.php:1072
+msgid "Armenia"
+msgstr "Armenia"
+
+#: core/helpers/helper-misc.php:233 core/helpers/helper-form-templates.php:1074
+msgid "Argentina"
+msgstr "Argentina"
+
+#: core/helpers/helper-misc.php:232 core/helpers/helper-form-templates.php:1069
+msgid "Antigua and Barbuda"
+msgstr "Antigua y Barbuda"
+
+#: core/helpers/helper-misc.php:231
+msgid "Antarctica"
+msgstr "Antártida"
+
+#: core/helpers/helper-misc.php:230 core/helpers/helper-form-templates.php:1070
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: core/helpers/helper-misc.php:229 core/helpers/helper-form-templates.php:1073
+msgid "Angola"
+msgstr "Angola"
+
+#: core/helpers/helper-misc.php:228 core/helpers/helper-form-templates.php:1066
+msgid "Andorra"
+msgstr "Andorra"
+
+#: core/helpers/helper-misc.php:227 core/helpers/helper-form-templates.php:1075
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: core/helpers/helper-misc.php:226 core/helpers/helper-form-templates.php:1125
+msgid "Algeria"
+msgstr "Argelia"
+
+#: core/helpers/helper-misc.php:225 core/helpers/helper-form-templates.php:1071
+msgid "Albania"
+msgstr "Albania"
+
+#: core/helpers/helper-misc.php:224 core/helpers/helper-form-templates.php:1068
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+#: inc/classes/parts/class-part-title-dummy.php:9
+msgid "For displaying personal honorifics."
+msgstr "Para mostrar formas de tratamiento."
+
+#: inc/classes/parts/class-part-scale-dummy.php:9
+msgid "For collecting opinions using a horizontal slider."
+msgstr "Para recoger opiniones mediante un control deslizante horizontal."
+
+#: inc/classes/parts/class-part-phone-dummy.php:9
+msgid "For phone numbers. Includes country specific formatting."
+msgstr "Para números de teléfono. Incluye el formato específico de cada país."
+
+#: core/classes/parts/class-part-number.php:9
+msgid "For numeric fields."
+msgstr "Para campos numéricos."
+
+#: inc/classes/parts/class-part-legal-dummy.php:9
+msgid "For requiring permission before accepting submission."
+msgstr "Para pedir permiso antes de aceptar un envío."
+
+#: core/templates/parts/customize-number.php:8
+#: core/templates/parts/customize-checkbox.php:8
+#: core/templates/parts/customize-email.php:8
+#: core/templates/parts/customize-radio.php:8
+#: core/templates/parts/customize-single-line-text.php:8
+#: core/templates/parts/customize-multi-line-text.php:8
+#: core/templates/parts/customize-select.php:8
+#: core/classes/class-form-styles.php:89 core/classes/class-form-styles.php:118
+#: core/classes/class-form-styles.php:261
+msgid "Show"
+msgstr "Mostrar"
+
+#: inc/classes/parts/class-part-date-dummy.php:9
+msgid "For formatted day, month, year and or time fields."
+msgstr "Para campos de día, mes, año y hora formateados."
+
+#: inc/classes/parts/class-part-address-dummy.php:9
+msgid "For geographical locations. Includes Google Maps intergration."
+msgstr "Para ubicaciones geográficas. Incluye integración con Google Maps."
+
+#: inc/classes/parts/class-part-address-dummy.php:8
+msgid "Address"
+msgstr "Dirección"
+
+#: core/classes/class-form-setup.php:243
+msgid "Submit form"
+msgstr "Enviar el formulario"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://happyforms.io"
+msgstr "https://happyforms.io"
+
+#: core/templates/preview-form-pencil.php:3
+msgid "Click to edit this part."
+msgstr "Haz clic para editar esta parte."
+
+#: core/templates/customize-header-actions.php:21
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Los cambios realizados se perderán si sales de esta página."
+
+#: core/templates/customize-header-actions.php:22
+msgid "Close"
+msgstr "Cerrar"
+
+#: core/templates/customize-form-item.php:34
+msgid "Preview"
+msgstr "Vista previa"
+
+#: core/templates/customize-form-item.php:24
+#: core/templates/customize-form-steps.php:7
+msgid "Style"
+msgstr "Estilo"
+
+#: core/templates/customize-form-item.php:21
+#: core/templates/customize-form-steps.php:4
+msgid "Setup"
+msgstr "Configuración"
+
+#: core/templates/customize-form-item.php:18
+msgid "Add Part"
+msgstr "Añadir parte"
+
+#: core/helpers/helper-activation.php:130
+msgid "Your message"
+msgstr "Tu mensaje"
+
+#: core/helpers/helper-activation.php:119
+msgid "Asking about my account"
+msgstr "Preguntar sobre mi cuenta"
+
+#: core/helpers/helper-activation.php:116
+msgid "Want to suggest a feature"
+msgstr "¿Quieres sugerir una característica"
+
+#: core/helpers/helper-activation.php:113
+msgid "Need technical help"
+msgstr "Necesitas ayuda técnica"
+
+#: core/helpers/helper-activation.php:110
+msgid "What's your reason for contacting us?"
+msgstr "¿Por qué te has puesto en contacto con nosotros?"
+
+#: core/helpers/helper-activation.php:105
+msgid "Last name"
+msgstr "Apellidos"
+
+#: core/helpers/helper-activation.php:100
+msgid "First name"
+msgstr "Nombre"
+
+#: inc/classes/parts/class-part-website-url-dummy.php:9
+msgid "For formatted site URLs."
+msgstr "Para URL del sitio con formato."
+
+#: core/classes/parts/class-part-single-line-text.php:9
+msgid "For single line text fields."
+msgstr "Para campos de texto de una sola línea."
+
+#: core/classes/parts/class-part-select.php:9
+msgid "For selecting one option from a long list. Default value adjustable."
+msgstr "Para seleccionar una opción de una larga lista. Valor por defecto ajustable."
+
+#: core/classes/parts/class-part-select.php:8
+msgid "Dropdown"
+msgstr "Lista desplegable"
+
+#: core/classes/class-form-styles.php:813
+msgid "Rating"
+msgstr "Valoración"
+
+#: core/templates/parts/customize-checkbox.php:119
+#: core/templates/parts/customize-radio.php:102
+#: core/templates/parts/customize-select.php:88
+msgid "Make this choice default"
+msgstr "Hacer que esta opción sea por defecto"
+
+#: core/classes/parts/class-part-radio.php:13
+msgid "For radio buttons allowing one selection."
+msgstr "Para botones de selección única."
+
+#: core/classes/parts/class-part-radio.php:12
+msgid "Single Choice"
+msgstr "Elección única"
+
+#: core/templates/parts/customize-number.php:70
+#: core/templates/parts/customize-email.php:45
+#: core/templates/parts/customize-single-line-text.php:44
+msgid "Prefix"
+msgstr "Prefijo"
+
+#: core/classes/parts/class-part-number.php:8
+msgid "Number"
+msgstr "Número"
+
+#: core/classes/class-form-styles.php:778
+#: core/classes/class-form-styles.php:928
+msgid "Text"
+msgstr "Texto"
+
+#: core/classes/parts/class-part-multi-line-text.php:9
+msgid "For paragraph text fields."
+msgstr "Para campos de párrafos de texto."
+
+#: core/classes/parts/class-part-email.php:9
+msgid "For formatted email addresses. The '@' symbol is required."
+msgstr "Para direcciones de correo electrónico formateadas. El símbolo '@' es obligatorio."
+
+#: core/templates/customize-form-steps.php:5
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: core/templates/parts/customize-number.php:20
+#: core/templates/parts/customize-email.php:20
+#: core/templates/parts/customize-single-line-text.php:20
+#: core/templates/parts/customize-multi-line-text.php:20
+#: core/templates/parts/customize-select.php:20
+#: core/classes/class-form-styles.php:753
+#: inc/classes/parts/class-part-placeholder-dummy.php:8
+msgid "Placeholder"
+msgstr "Texto de ejemplo"
+
+#: core/templates/parts/customize-checkbox.php:123
+#: core/templates/parts/customize-radio.php:106
+#: core/templates/parts/customize-select.php:92
+#: core/templates/customize-form-part-footer.php:3
+#: core/templates/customize-form-item.php:33
+msgid "Delete"
+msgstr "Eliminar"
+
+#: core/templates/parts/customize-number.php:4
+#: core/templates/parts/customize-checkbox.php:4
+#: core/templates/parts/customize-checkbox.php:114
+#: core/templates/parts/customize-email.php:4
+#: core/templates/parts/customize-radio.php:4
+#: core/templates/parts/customize-radio.php:97
+#: core/templates/parts/customize-single-line-text.php:4
+#: core/templates/parts/customize-multi-line-text.php:4
+#: core/templates/parts/customize-select.php:4
+#: core/templates/parts/customize-select.php:83
+#: core/classes/class-form-styles.php:743
+msgid "Label"
+msgstr "Etiqueta"
+
+#: core/helpers/helper-misc.php:932
+#: core/templates/parts/customize-checkbox.php:73
+#: core/templates/parts/customize-checkbox.php:83
+#: core/templates/parts/customize-radio.php:68
+msgid "Half"
+msgstr "Mitad"
+
+#: core/helpers/helper-misc.php:931
+#: core/templates/parts/customize-checkbox.php:72
+#: core/templates/parts/customize-checkbox.php:82
+#: core/templates/parts/customize-radio.php:67
+msgid "Full"
+msgstr "Completo"
+
+#: core/templates/parts/customize-checkbox.php:66
+#: core/templates/parts/customize-radio.php:61
+msgid "Vertical"
+msgstr "Vertical"
+
+#: core/templates/parts/customize-checkbox.php:65
+#: core/templates/parts/customize-radio.php:60
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: core/templates/parts/customize-number.php:13
+#: core/templates/parts/customize-checkbox.php:13
+#: core/templates/parts/customize-email.php:13
+#: core/templates/parts/customize-radio.php:13
+#: core/templates/parts/customize-single-line-text.php:13
+#: core/templates/parts/customize-multi-line-text.php:13
+#: core/templates/parts/customize-select.php:13
+#: core/classes/class-form-styles.php:202
+msgid "Below"
+msgstr "Debajo"
+
+#: core/templates/parts/customize-number.php:10
+#: core/templates/parts/customize-checkbox.php:10
+#: core/templates/parts/customize-email.php:10
+#: core/templates/parts/customize-radio.php:10
+#: core/templates/parts/customize-single-line-text.php:10
+#: core/templates/parts/customize-multi-line-text.php:10
+#: core/templates/parts/customize-select.php:10
+#: core/classes/class-form-styles.php:98 core/classes/class-form-styles.php:172
+#: core/classes/class-form-styles.php:203
+#: core/classes/class-form-styles.php:212
+#: core/classes/class-form-styles.php:241
+#: core/classes/class-form-styles.php:318
+msgid "Left"
+msgstr "Izquierda"
+
+#: core/classes/class-form-styles.php:201
+msgid "Above"
+msgstr "Encima"
+
+#: core/classes/class-form-styles.php:613
+#: inc/classes/parts/class-part-layout-title-dummy.php:8
+#: inc/classes/parts/class-part-title-dummy.php:8
+msgid "Title"
+msgstr "Título"
+
+#: core/classes/parts/class-part-checkbox.php:11
+msgid "For checkboxes allowing multiple selections."
+msgstr "Para casillas de selección múltiple."
+
+#: core/classes/parts/class-part-checkbox.php:10
+msgid "Multiple Choice"
+msgstr "Elección múltiple"
+
+#: core/classes/class-wp-customize-form-manager.php:185
+msgid "Form saved. You can add this form to any Page, Post and Widget area. Have questions? <a href=\"%s\" target=\"_blank\">Ask for help in our support forums</a>."
+msgstr "Formulario guardado. Puedes añadir este formulario a cualquier página, entrada y área de widgets. ¿Tienes preguntas? <a href=\"%s\" target=\"_blank\">Pide ayuda en nuestros foros de soporte</a>."
+
+#: core/classes/class-tracking.php:179
+msgid "Error description"
+msgstr "Descripción del error"
+
+#: core/classes/class-tracking.php:178
+msgid "Aw snap! Something went wrong."
+msgstr "Algo salió mal."
+
+#: core/classes/class-tracking.php:176
+msgid "Create your first form"
+msgstr "Crear tu primer formulario"
+
+#: core/classes/class-tracking.php:175
+msgid "You've set up notifications and helped us to improve HappyForms. You're ready to get started with your first form."
+msgstr "Has configurado las notificaciones y nos has ayudado a mejorar HappyForms. Ya estás listo para empezar a crear tu primer formulario."
+
+#: core/classes/class-tracking.php:174
+msgid "Now let's go enjoy HappyForms."
+msgstr "A disfrutar de HappyForms."
+
+#: core/classes/class-tracking.php:173
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#: core/classes/class-tracking.php:139
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Lo siento, no tienes permisos para acceder a esta página."
+
+#: core/classes/class-happyforms-widget.php:83
+msgid "Form:"
+msgstr "Formulario:"
+
+#: core/classes/class-happyforms-widget.php:79
+msgid "Title:"
+msgstr "Título:"
+
+#: core/classes/class-happyforms-core.php:181
+#: core/classes/class-happyforms-core.php:182
+#: core/classes/class-form-controller.php:70
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#. Author of the plugin
+msgid "Happyforms"
+msgstr "Happyforms"
+
+#: core/helpers/helper-misc.php:929
+#: core/templates/parts/customize-checkbox.php:80
+#: core/classes/class-form-styles.php:558
+#: core/classes/class-form-styles.php:878
+msgid "Width"
+msgstr "Ancho"
+
+#: core/classes/class-form-styles.php:623
+#: core/classes/class-form-styles.php:898
+msgid "Alignment"
+msgstr "Alineación"
+
+#: core/classes/class-form-styles.php:863
+msgid "Submit button"
+msgstr "Botón de envío"
+
+#: core/classes/class-form-styles.php:893
+msgid "Font weight"
+msgstr "Grosor de la fuente"
+
+#: core/classes/class-form-part-library.php:227
+msgid "Missing validation callback for field %s"
+msgstr "Falta la función de validación de retorno para el campo %s"
+
+#: core/classes/class-form-part-library.php:189
+msgid "Invalid data"
+msgstr "Datos no válidos"
+
+#: core/classes/class-form-email.php:67
+msgid "We received your message"
+msgstr "Hemos recibido tu mensaje"
+
+#: core/classes/class-form-email.php:71
+msgid "Your message has been successfully sent. We appreciate you contacting us and we’ll be in touch soon."
+msgstr "Tu mensaje se ha enviado con éxito. Te agradecemos que hayas contactado con nosotros y pronto nos pondremos en contacto contigo."
+
+#: core/classes/class-form-controller.php:78
+msgid "No forms found in Trash"
+msgstr "No se han encontrado formularios en la papelera"
+
+#: core/classes/class-form-controller.php:77
+msgid "No forms found."
+msgstr "No se han encontrado formularios."
+
+#: core/classes/class-form-controller.php:76
+msgid "Search Forms"
+msgstr "Buscar formularios"
+
+#: core/classes/class-form-controller.php:75
+msgid "View forms"
+msgstr "Ver formularios"
+
+#: core/classes/class-form-controller.php:72
+msgid "Edit form"
+msgstr "Editar formulario"
+
+#: core/classes/class-form-controller.php:71
+#: core/classes/class-form-controller.php:73
+msgid "Build form"
+msgstr "Maquetar formulario"
+
+#: core/classes/class-form-controller.php:69
+msgid "Form"
+msgstr "Formulario"
+
+#: core/classes/class-happyforms-core.php:173
+#: core/classes/class-happyforms-core.php:174
+#: core/classes/class-form-controller.php:79
+#: core/classes/class-form-controller.php:80
+msgid "All Forms"
+msgstr "Todos los formularios"
+
+#: core/classes/class-form-controller.php:618
+msgid " Copy"
+msgstr " Copia"
+
+#: core/classes/class-form-admin.php:363
+msgid "Trash"
+msgstr "Papelera"
+
+#: core/templates/customize-form-part-footer.php:4
+#: core/templates/customize-form-item.php:27
+#: core/classes/class-form-admin.php:359
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: core/classes/class-form-admin.php:355
+msgid "Edit"
+msgstr "Editar"
+
+#: core/classes/class-form-admin.php:285
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#: core/classes/class-form-admin.php:247
+msgid "Author"
+msgstr "Autor"
+
+#: core/classes/class-form-admin.php:246
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: core/classes/class-form-admin.php:203
+msgid "%s form restored from the Trash."
+msgid_plural "%s forms restored from the Trash."
+msgstr[0] "%s formulario restaurado de la papelera."
+msgstr[1] "%s formularios restaurados de la papelera."
+
+#: core/classes/class-form-admin.php:202
+msgid "%s form moved to the Trash."
+msgid_plural "%s forms moved to the Trash."
+msgstr[0] "%s formulario movido a la papelera."
+msgstr[1] "%s formularios movidos a la papelera."
+
+#: core/classes/class-form-admin.php:201
+msgid "%s form permanently deleted."
+msgid_plural "%s forms permanently deleted."
+msgstr[0] "%s formulario eliminado de forma permanente."
+msgstr[1] "%s formularios eliminados de forma permanente."
+
+#: core/classes/class-form-admin.php:200
+msgid "%s form not updated, somebody is editing it."
+msgid_plural "%s forms not updated, somebody is editing them."
+msgstr[0] "%s formulario no actualizado, alguien lo está editando."
+msgstr[1] "%s formularios no actualizados, alguien los está editando."
+
+#: core/classes/class-form-admin.php:199
+msgid "%s form updated."
+msgid_plural "%s forms updated."
+msgstr[0] "%s formulario actualizado."
+msgstr[1] "%s formularios actualizados."
+
+#: core/classes/class-form-admin.php:176
+msgid "Form draft updated."
+msgstr "Borrador del formulario actualizado."
+
+#: core/classes/class-form-admin.php:175
+msgid "Form scheduled."
+msgstr "Formulario programado."
+
+#: core/classes/class-form-admin.php:174
+msgid "Form submitted."
+msgstr "Formulario enviado."
+
+#: core/classes/class-form-admin.php:173
+msgid "Form saved."
+msgstr "Formulario guardado."
+
+#: core/classes/class-form-admin.php:172
+msgid "Form published."
+msgstr "Formulario publicado."
+
+#: core/classes/class-form-admin.php:171
+msgid "Form restored to revision from %s."
+msgstr "Formulario restaurado a la revisión de %s."
+
+#: core/classes/class-form-admin.php:169
+msgid "Custom field deleted."
+msgstr "Campo personalizado eliminado."
+
+#: core/classes/class-form-admin.php:168
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado."
+
+#: core/classes/class-form-admin.php:167 core/classes/class-form-admin.php:170
+msgid "Form updated."
+msgstr "Formulario actualizado."
+
+#: core/classes/class-form-admin.php:162
+msgid "Preview form"
+msgstr "Previsualizar formulario"
+
+#: core/classes/class-form-admin.php:157
+#: core/classes/class-form-controller.php:74
+msgid "View form"
+msgstr "Ver formulario"
+
+#: core/classes/class-form-email.php:96
+#: inc/templates/admin/modal-onboarding.php:9
+msgid "Email address"
+msgstr "Dirección de correo electrónico"

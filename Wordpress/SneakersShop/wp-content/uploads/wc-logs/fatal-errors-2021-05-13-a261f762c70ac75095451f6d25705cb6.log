@@ -1,0 +1,10 @@
+2021-05-13T17:55:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php on line 77 and at least 1 expected in C:\xamppGCM\htdocs\wordpress\wp-includes\post.php:2225
+Stack trace:
+#0 C:\xamppGCM\htdocs\wordpress\wp-content\plugins\mycountplugin\mycountplugin.php(77): get_post_meta()
+#1 C:\xamppGCM\htdocs\wordpress\wp-content\themes\storefront-child\archive-promo.php(28): mycp_popularity_list()
+#2 C:\xamppGCM\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xamppGCM\\htd...')
+#3 C:\xamppGCM\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xamppGCM\\htd...')
+#4 C:\xamppGCM\htdocs\wordpress\index.php(17): require('C:\\xamppGCM\\htd...')
+#5 {main}
+  thrown en C:\xamppGCM\htdocs\wordpress\wp-includes\post.php en la línea 2225
+

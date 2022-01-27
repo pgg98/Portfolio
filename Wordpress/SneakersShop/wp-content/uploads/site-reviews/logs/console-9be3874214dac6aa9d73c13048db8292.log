@@ -1,0 +1,473 @@
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_3_0_0] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_4_0_2] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_4_4_0] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_4_5_0] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_5_0_0] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_5_2_0] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_5_3_0] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_5_9_0] has run successfully
+[2021-05-07 08:53:50] DEBUG [Modules\Migrate:152] [Migrate_5_10_3] has run successfully
+[2021-05-07 08:55:58] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-07 08:57:21] ERROR [Router:124] nonce check failed for public request
+[2021-05-07 08:57:21] DEBUG [Router:124] GeminiLabs\SiteReviews\Request Object
+(
+    [storage:ArrayObject:private] => Array
+        (
+            [_action] => submit-review
+            [_counter] => 
+            [_nonce] => 49489800c2
+            [_post_id] => 164
+            [_referer] => /wordpress/wp-json/wp/v2/block-renderer/site-reviews/form?context=edit&attributes%5Bassign_to%5D=&attributes%5Bassigned_posts%5D=&attributes%5Bassigned_terms%5D=&attributes%5Bassigned_users%5D=&attributes%5Bcategory%5D=&attributes%5Bhide%5D=&attributes%5Bid%5D=&attributes%5Buser%5D=&post_id=164&_locale=user
+            [assigned_posts] => 
+            [assigned_terms] => 
+            [assigned_users] => 
+            [excluded] => 
+            [form_id] => glsr_aeca87b4
+            [terms_exist] => 1
+            [ca89f540] => 
+            [_recaptcha-token] => 
+        )
+
+)
+
+[2021-05-11 09:32:53] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-11 09:33:19] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-11 16:05:43] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-12 15:47:43] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 11:35:25] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 11:39:35] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 15:12:19] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 15:21:31] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 15:24:39] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 15:32:00] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 15:32:04] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
+[2021-05-14 15:37:10] DEBUG [Modules\Validator\DefaultValidator:58] Array
+(
+    [content] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [email] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [name] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [rating] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+    [terms] => Array
+        (
+            [0] => Este campo debe ser aceptado.
+        )
+
+    [title] => Array
+        (
+            [0] => Este campo es obligatorio.
+        )
+
+)
+
