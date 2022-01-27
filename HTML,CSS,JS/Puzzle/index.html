@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon"  href="imagenes/logoPuzzle.ico">
+	<script src="puzzle.js"></script>
+	<title>PUZZLE LOCO</title>
+</head>
+<body data-pagina="body">
+	<header>
+		<a id="top"></a>
+		<img src="imagenes/logoPuzzle.ico" alt="LOGO NOMBRE PAG">
+		<h1>PUZZLE LOCO</h1>
+		<h2>Consigue armar el puzzle con el menor número de movimientos</h2>
+	</header>
+	<hr class="cabeza">
+	
+	
+
+	<!-- <div class="overlay" id="overlay">
+		<div class="popup" id="popup">			
+		</div>
+	</div> -->
+
+	
+		<section class="busco">
+			<h2>Tabla de puntuación</h2>
+
+			<table id="default">
+			</table>
+			
+			<button id="anterior">Anterior</button>
+			<button id="siguiente" onclick="paginacion()">Siguiente</button>
+		</section>
+
+		<section class="opciones">
+			<h2>Elige las opciones para jugar:</h2>
+			<!-- <section class="busco">
+				<h2>JUEGA</h2> -->
+				<div class="tama">
+					<h3>Elige el tamaño del juego: </h3>
+					<div id="dificultad">
+						<button class="button" id="4x4" value="4" onclick="preseleccion();"> 4x4 </button>
+						<button class="button" id="6x6" onclick="preseleccion();"> 6x6 </button>
+						<button class="button" id="8x8" onclick="preseleccion();"> 8x8 </button>
+					</div>
+				</div>
+		
+				<div id="empezar" class="empezar">
+					<button class="button" onclick="partida();">COMENZAR</button>
+				</div>
+				<br>
+				
+				<!-- <div id="numeros" class="numeros" ></div> -->
+				
+			<!-- </section> -->
+			<button class="button" onclick="cargarImagen()"> CARGAR img </button>
+			<div id="imagenes">
+				<canvas onclick="seleccionarImg(1)" value='1' id="cv01"></canvas>
+				<canvas onclick="seleccionarImg(2)" value='2' id="cv02"></canvas>
+				<canvas onclick="seleccionarImg(3)" value='3' id="cv03"></canvas>
+				<canvas onclick="seleccionarImg(4)" value='4' id="cv04"></canvas>
+				<canvas onclick="seleccionarImg(5)" value='5' id="cv05"></canvas>
+				<canvas onclick="seleccionarImg(6)" value='6' id="cv06"></canvas>
+			</div>
+		</section>
+
+	<!-- <div class="overlay" id="overlay">
+		<div class="popup" id="popup">
+		</div>
+	</div> -->
+
+	<footer>
+		<p>Copyright &copy;</p>
+		<a href="acerca.html">Información de contacto</a><br>
+		<a href="#top">Inicio de página</a><br>
+		<time datetime="2021-05">Mayo 2021</time>
+	</footer>
+	<!--<script>tablero(4); fuera();</script>-->
+	<script>cargarImagen(); tablaPuntuacion(0);</script>
+</body>
+</html>

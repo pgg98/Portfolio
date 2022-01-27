@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="imagenes/logoPuzzle.ico">
+    <script src="puzzle.js"></script>
+    <title>PUZZLE LOCO</title>
+</head>
+
+<body>
+    <header>
+        <a id="top"></a>
+        <img src="imagenes/logoPuzzle.ico" alt="LOGO NOMBRE PAG">
+        <h1>PUZZLE LOCO</h1>
+        <h2>Consigue armar el puzzle con el menor número de movimientos</h2>
+    </header>
+    <hr class="cabeza">
+
+    <section class="busco">
+        <div class="tama">
+            <h3>Elige el tamaño del juego: <button id="tab4" onclick="tablero(4);"> 4x4 </button><button id="tab6" onclick="tablero(6);"> 6x6 </button><button id="tab8"
+                    onclick="tablero(8);"> 8x8 </button></h3>
+        </div>
+
+        <!-- Botones y crono añadidos pal antonio -->
+        <div>
+            <output id="jugadas" data-valor="0"> Jugadas: 00 </output><button onclick="finaliza();">TERMINAR</button>
+        </div>
+        
+        <h3>Canvas partido</h3>
+        <canvas id="#cv01"></canvas>
+    </section>
+
+    <script>tablero(4); /*prepararCanvas();*/</script>
+</body>
+    
+</html>
