@@ -1,6 +1,6 @@
 # Portfolio
-Todo el código desarrollado a la largo de mi carrera universitaria.
+Todo el código desarrollado a la largo de mi carrera universitaria, prácticas, pequeños proyectos y un proyecto de un año de duración.
 
-El proyecto más grande e interesante lo estamos desarrollando en este momento, pero aquí se encuentran todas mis prácticas y proyectos más pequeños realizados hasta la fecha durante mi carrera universitaria.
+Proyecto principal en desarrollo: MyKine (versión final disponible en Junio de 2022).
 
 CV: https://drive.google.com/file/d/15u64QQDoD1TnITervPibZUyfERDE6DYN/view?usp=sharing
